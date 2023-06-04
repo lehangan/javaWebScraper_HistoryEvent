@@ -29,6 +29,25 @@ public class ExtractData {
     // public static List<String> trieudai = new ArrayList<>();
     // public static List<String> nhanvat = new ArrayList<>();
 
+    private String unescapeUnicode(String input) {
+        StringBuilder builder = new StringBuilder();
+        int i = 0;
+        int length = input.length();
+
+        while (i < length) {
+            char currentChar = input.charAt(i);
+            if (currentChar == '\\' && i < length - 1 && input.charAt(i + 1) == 'u') {
+                // Unescape "\u2013" to "-"
+                builder.append("-");
+                i += 6; // Skip the "\u2013" characters
+            } else {
+                builder.append(currentChar);
+                i++;
+            }
+        }
+
+        return builder.toString();
+    }
 
     public void infobox(LinkEvent linkEvent, Map<String, String> object) {
         try {
@@ -47,7 +66,7 @@ public class ExtractData {
             object.put("Nhân vật liên quan (Chỉ huy)", nvLienQuan);
             object.put("Lực lượng", lucluong);
             object.put("Thương vong", thuongvong);
-            object.put("Thể loại", theloai);
+            object.put("Thể loại liên quan", theloai);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -100,7 +119,7 @@ public class ExtractData {
                         infobox(linkEvent, entry);
                     } else {
                         entry.put("Thực thể liên quan", j.text());
-                        entry.put("Thể loại", linkEvent.contentInfobox());
+                        entry.put("Thể loại liên quan", linkEvent.contentInfobox());
                     }
                 }
                 data.add(entry);
@@ -123,26 +142,6 @@ public class ExtractData {
             e.printStackTrace();
         }
 
-    }
-
-    private String unescapeUnicode(String input) {
-        StringBuilder builder = new StringBuilder();
-        int i = 0;
-        int length = input.length();
-
-        while (i < length) {
-            char currentChar = input.charAt(i);
-            if (currentChar == '\\' && i < length - 1 && input.charAt(i + 1) == 'u') {
-                // Unescape "\u2013" to "-"
-                builder.append("-");
-                i += 6; // Skip the "\u2013" characters
-            } else {
-                builder.append(currentChar);
-                i++;
-            }
-        }
-
-        return builder.toString();
     }
 
 }
