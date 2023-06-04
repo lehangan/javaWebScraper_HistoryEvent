@@ -4,6 +4,8 @@ package nodeExtract;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+
 import org.jsoup.Jsoup;
 import java.io.IOException;
 
@@ -22,97 +24,22 @@ public class ExtractData {
     public static List<String> listUrl = new ArrayList<>();
 
     public static int size = 0;
-    SearchLinkEvent searchLink = new SearchLinkEvent();
+    //LinkEventV2 searchLink = new LinkEventV2();
 
     // public static List<String> trieudai = new ArrayList<>();
     // public static List<String> nhanvat = new ArrayList<>();
 
-    public String contentInfoBox(String url, String element) throws IOException {
-        String returnString = "";
-        try {
-            Document doc = Jsoup.connect(url).get();
-            Element content = doc.getElementsByClass("infobox vevent").first();
-            Element contentSpecial = content.getElementsMatchingOwnText(element).first();
 
-            if (contentSpecial != null && contentSpecial.nextElementSibling() != null) {
-                returnString = returnString + contentSpecial.nextElementSibling().text();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return returnString;
-
-    }
-
-    public String contentInfoBox(String url, String element, int type) throws IOException {
-        List<String> listString = new ArrayList<>();
-        String returnString = "";
-        try {
-            Document doc = Jsoup.connect(url).get();
-            Element content = doc.getElementsByClass("infobox vevent").first();
-            Element contentSpecial = content.select("tr:has(th:containsOwn(" + element + "))").first();
-            if (contentSpecial != null && contentSpecial.nextElementSibling() != null) {
-                Elements contentArray = contentSpecial.nextElementSibling().select("a[href]");
-                for (Element i : contentArray)
-                    listString.add(i.text());
-                returnString = String.join(", ", listString);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return returnString;
-
-    }
-
-    public String contentInfobox(String url, String element, int type1, int type2) throws IOException {
-        String returnString = "";
-        try {
-            Document doc = Jsoup.connect(url).get();
-            Element content = doc.getElementsByClass("infobox vevent").first();
-            Element contentSpecial = content.select("tr:has(th:containsOwn(" + element + "))").first();
-            if (contentSpecial != null && contentSpecial.nextElementSibling() != null) {
-                Element contentArray = contentSpecial.nextElementSibling();
-                Element first = contentArray.select("td").first();
-                Element second = contentArray.select("td").last();
-                returnString = "Bên 1 " + first.text() + " " + "Bên 2 " + second.text();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return returnString;
-    }
-
-    public String contentInfobox(String url) throws IOException {
-        String returnString = "";
-        try {
-            Document doc = Jsoup.connect(url).get();
-            Element div = doc.select("div#mw-normal-catlinks").first();
-            if (div != null) {
-                Element elementul = div.select("ul").first();
-                if (elementul != null) {
-                    Elements elementli = elementul.select("li");
-                    List<String> theloai = new ArrayList<>();
-                    for (Element e : elementli)
-                        theloai.add(e.text());
-                    returnString = String.join(", ", theloai);
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return returnString;
-    }
-
-    public void infobox(String url, Map<String, String> object) {
+    public void infobox(LinkEvent linkEvent, Map<String, String> object) {
         try {
             // instance = new HashMap<String, String>(10000);
-            String result = contentInfoBox(url, "Kết quả");
-            String destination = contentInfoBox(url, "Địa điểm");
-            String tdLienQuan = contentInfoBox(url, "Tham chiến", 0);
-            String nvLienQuan = contentInfoBox(url, "Chỉ huy", 0);
-            String lucluong = contentInfobox(url, "Lực lượng", 0, 0);
-            String thuongvong = contentInfobox(url, "Thương vong", 0, 0);
-            String theloai = contentInfobox(url);
+            String result = linkEvent.contentInfoBox("Kết quả");
+            String destination = linkEvent.contentInfoBox( "Địa điểm");
+            String tdLienQuan = linkEvent.contentInfoBox( "Tham chiến", 0);
+            String nvLienQuan = linkEvent.contentInfoBox( "Chỉ huy", 0);
+            String lucluong = linkEvent.contentInfobox( "Lực lượng", 0, 0);
+            String thuongvong = linkEvent.contentInfobox("Thương vong", 0, 0);
+            String theloai = linkEvent.contentInfobox();
 
             object.put("Kết quả ", result);
             object.put("Địa điểm liên quan", destination);
@@ -148,13 +75,15 @@ public class ExtractData {
                     Elements linkChild = i.select("a");
                     for (Element j : linkChild) {
                         String linkChildUrl = j.attr("abs:href");
-                        if (SearchLinkEvent.isEvent(linkChildUrl) && !listUrl.contains(linkChildUrl)) {
+                        LinkEvent linkEvent = new LinkEvent(linkChildUrl);
+                        if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                             listUrl.add(linkChildUrl);
-                            infobox(linkChildUrl, entry);
+                            infobox(linkEvent, entry);
                         }
                     }
                     data.add(entry);
                     size++;
+                    //System.out.println(size);
                 }
             } else {
                 Map<String, String> entry = new HashMap<>();
@@ -165,16 +94,18 @@ public class ExtractData {
                 Elements linkChild = link.select("a");
                 for (Element j : linkChild) {
                     String linkChildUrl = j.attr("abs:href");
-                    if (SearchLinkEvent.isEvent(linkChildUrl) && !listUrl.contains(linkChildUrl)) {
+                    LinkEvent linkEvent = new LinkEvent(linkChildUrl);
+                    if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                         listUrl.add(linkChildUrl);
-                        infobox(linkChildUrl, entry);
+                        infobox(linkEvent, entry);
                     } else {
                         entry.put("Thực thể liên quan", j.text());
-                        entry.put("Thể loại", contentInfobox(linkChildUrl));
+                        entry.put("Thể loại", linkEvent.contentInfobox());
                     }
                 }
                 data.add(entry);
                 size++;
+                //System.out.println(size);
             }
         }
 
@@ -214,10 +145,4 @@ public class ExtractData {
         return builder.toString();
     }
 
-    public static void main(String[] args) throws IOException {
-        ExtractData extractData = new ExtractData();
-        extractData.writeData(
-                "https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam");
-        System.out.println(size);
-    }
 }
