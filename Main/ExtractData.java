@@ -1,10 +1,9 @@
-package nodeExtract;
+package Main;
 
 // import org.jsoup.*;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 
 import org.jsoup.Jsoup;
 import java.io.IOException;
@@ -24,7 +23,7 @@ public class ExtractData {
     public static List<String> listUrl = new ArrayList<>();
 
     public static int size = 0;
-    //LinkEventV2 searchLink = new LinkEventV2();
+    // LinkEventV2 searchLink = new LinkEventV2();
 
     // public static List<String> trieudai = new ArrayList<>();
     // public static List<String> nhanvat = new ArrayList<>();
@@ -53,10 +52,10 @@ public class ExtractData {
         try {
             // instance = new HashMap<String, String>(10000);
             String result = linkEvent.contentInfoBox("Kết quả");
-            String destination = linkEvent.contentInfoBox( "Địa điểm");
-            String tdLienQuan = linkEvent.contentInfoBox( "Tham chiến", 0);
-            String nvLienQuan = linkEvent.contentInfoBox( "Chỉ huy", 0);
-            String lucluong = linkEvent.contentInfobox( "Lực lượng", 0, 0);
+            String destination = linkEvent.contentInfoBox("Địa điểm");
+            String tdLienQuan = linkEvent.contentInfoBox("Tham chiến", 0);
+            String nvLienQuan = linkEvent.contentInfoBox("Chỉ huy", 0);
+            String lucluong = linkEvent.contentInfobox("Lực lượng", 0, 0);
             String thuongvong = linkEvent.contentInfobox("Thương vong", 0, 0);
             String theloai = linkEvent.contentInfobox();
 
@@ -81,6 +80,16 @@ public class ExtractData {
         for (Element link : links) {
             Elements time = link.select("b");
             String thoigian = time.text();
+            String thoidai = "";
+            Element previousH3Element = link.previousElementSibling();
+            while (previousH3Element != null && !previousH3Element.tagName().equalsIgnoreCase("h3")) {
+                previousH3Element = previousH3Element.previousElementSibling();
+            }
+            if (previousH3Element != null)
+            {
+                Element spanE = previousH3Element.select("span.mw-headline").first();
+                thoidai = spanE.text();
+            }
 
             Element nextLink = link.nextElementSibling();
             if (nextLink != null && nextLink.tagName().equalsIgnoreCase("dl")) {
@@ -91,6 +100,7 @@ public class ExtractData {
                     i.child(0).remove();
                     entry.put("Sự kiện", i.text());
                     entry.put("Thời gian", thoigiancuthe);
+                    entry.put("Thời kỳ (Triều đại)" , thoidai);
                     Elements linkChild = i.select("a");
                     for (Element j : linkChild) {
                         String linkChildUrl = j.attr("abs:href");
@@ -102,14 +112,16 @@ public class ExtractData {
                     }
                     data.add(entry);
                     size++;
-                    //System.out.println(size);
+                    // System.out.println(size);
                 }
+
             } else {
                 Map<String, String> entry = new HashMap<>();
                 link.child(0).remove();
                 String sukien = link.text();
                 entry.put("Sự kiện", sukien);
                 entry.put("Thời gian", thoigian);
+                entry.put("Thời kỳ (Triều đại)" , thoidai);
                 Elements linkChild = link.select("a");
                 for (Element j : linkChild) {
                     String linkChildUrl = j.attr("abs:href");
@@ -124,7 +136,7 @@ public class ExtractData {
                 }
                 data.add(entry);
                 size++;
-                //System.out.println(size);
+                // System.out.println(size);
             }
         }
 
@@ -134,7 +146,7 @@ public class ExtractData {
         }
 
         try (
-                FileWriter fileWriter = new FileWriter("E:/OOP/javaProject/nodeExtract/extractData.json")) {
+                FileWriter fileWriter = new FileWriter("E:/OOP/javaProject/Main/extractData.json")) {
             String modifiedJsonString = unescapeUnicode(jsonArray.toString());
             fileWriter.write(modifiedJsonString);
             fileWriter.flush();
