@@ -92,10 +92,6 @@ public class Main {
         }
     }
 
-    // public static void theloai( String url){
-    // Document doc = Jsoup.connect(url).get();
-    // }
-
     public static String theloai(String url) throws IOException {
         String returnString = "";
         try {
@@ -113,8 +109,28 @@ public class Main {
         return returnString;
     }
 
+    public static String contentInfoBox( String element) throws IOException {
+        String returnString = "";
+        Document doc = Jsoup.connect("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n%E2%80%93Vi%E1%BB%87t_(42%E2%80%9343)").get();
+        Element content = doc.getElementsByClass("infobox vevent").first();
+        Element contentSpecial = content.getElementsMatchingOwnText(element).first();
+
+        if (contentSpecial != null && contentSpecial.nextElementSibling() != null) {
+            returnString = returnString + contentSpecial.nextElementSibling().text();
+        }
+        return returnString;
+    }
+
+    public static void mota(String url) throws IOException{
+        Document doc = Jsoup.connect(url).get();
+        Element div = doc.select("div.mw-parser-output").first();
+        Element des = div.select("p").first();
+        System.out.println(des.text());
+    }
     public static void main(String[] args) throws IOException {
-        System.out
-                .println(theloai("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t"));
+        // System.out
+        //         .println(theloai("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t"));
+        //System.out.println(contentInfoBox("Thời gian"));
+        mota("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t");
     }
 }
