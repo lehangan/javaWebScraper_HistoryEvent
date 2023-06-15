@@ -140,20 +140,12 @@ public class ExtractData {
             }
         }
 
-        for (Map<String, String> d : data) {
-            JSONObject jsonObject1 = new JSONObject(d);
-            jsonArray.add(jsonObject1);
-        }
-
-        try (
-                FileWriter fileWriter = new FileWriter("E:/OOP/javaProject/Main/extractData.json")) {
-            String modifiedJsonString = unescapeUnicode(jsonArray.toString());
-            fileWriter.write(modifiedJsonString);
-            fileWriter.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        // to store data
+        String databaseFile = "E:/OOP/javaProject/Main/extractData.json";    // the json file, where data is stored
+        JsonDatabase database = new JsonDatabase(databaseFile);              // create a json database, you need to import this class
+        database.store(data);                                                // store list of map<String, String> into database
+        database.close();                                                    // save changes to json file
+        
     }
 
 }
