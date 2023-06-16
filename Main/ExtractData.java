@@ -106,6 +106,7 @@ public class ExtractData {
                         if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                             listUrl.add(linkChildUrl);
                             infobox(linkEvent, entry);
+                            //entry.put("Link", linkChildUrl);
                             // infobox(linkEvent, entry, entry1);
                         }
                     }
@@ -127,6 +128,7 @@ public class ExtractData {
                 for (Element j : linkChild) {
                     String linkChildUrl = j.attr("abs:href");
                     LinkEvent linkEvent = new LinkEvent(linkChildUrl);
+                    //entry.put("Link" , linkChildUrl);
                     if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                         listUrl.add(linkChildUrl);
                         infobox(linkEvent, entry);

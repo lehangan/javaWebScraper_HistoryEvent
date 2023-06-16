@@ -124,13 +124,14 @@ public class Main {
     public static void mota(String url) throws IOException{
         Document doc = Jsoup.connect(url).get();
         Element div = doc.select("div.mw-parser-output").first();
-        Element des = div.select("p").first();
-        System.out.println(des.text());
+        Elements paragraphs = div.select("p");
+        Element pElement = paragraphs.get(0);
+        System.out.println(pElement);
     }
     public static void main(String[] args) throws IOException {
         // System.out
         //         .println(theloai("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t"));
         //System.out.println(contentInfoBox("Thời gian"));
-        mota("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t");
+        mota("https://vi.wikipedia.org/wiki/Th%E1%BA%A3m_s%C3%A1t_Ba_Ch%C3%BAc");
     }
 }
