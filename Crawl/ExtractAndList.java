@@ -1,4 +1,4 @@
-package Main;
+package Crawl;
 
 // import org.jsoup.*;
 import java.io.IOException;
@@ -9,11 +9,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import Database.Database;
 
 public class ExtractAndList extends ExtractData {
     public static int numberUrlUsed = 0;
@@ -33,11 +36,6 @@ public class ExtractAndList extends ExtractData {
     }
 
     public void createListUrl(String url) throws IOException {
-        // try {
-        // writeData(url);
-        // } catch (IOException e) {
-        // e.printStackTrace();
-        // }
         writeData(url);
     }
 
@@ -95,7 +93,7 @@ public class ExtractAndList extends ExtractData {
         ExtractAndList searchMoreLink = new ExtractAndList();
         searchMoreLink.createListUrl(
                 "https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam");
-        searchMoreLink.writeListUrl(listUrl, "E:/OOP/javaProject/Main/eventLink.txt");
+        searchMoreLink.writeListUrl(listUrl, "E:/OOP/javaProject/Crawl/eventLink.txt");
         searchMoreLink.writeListUrlNew(
                 "https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_tr%E1%BA%ADn_%C4%91%C3%A1nh_trong_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam#Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD_(544_-_603)");
         searchMoreLink.writeListUrlNew(
@@ -117,9 +115,11 @@ public class ExtractAndList extends ExtractData {
         listUrlNew.remove("https://vi.wikipedia.org/wiki/1954");
 
         searchMoreLink.writeListUrl(listUrlNew,
-                "E:/OOP/javaProject/Main/eventLinkNew.txt");
+                "E:/OOP/javaProject/Crawl/eventLinkNew.txt");
         searchMoreLink.wrtieDataAll();
-        searchMoreLink.writeDataToFile();
+
+        Database database = new Database(jsonArray);
+        //searchMoreLink.writeDataToFile();
 
         System.out.println(size);
     }

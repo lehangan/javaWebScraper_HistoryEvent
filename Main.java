@@ -2,6 +2,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import Crawl.LinkEvent;
+
 import java.io.IOException;
 
 import java.util.HashMap;
@@ -109,9 +112,11 @@ public class Main {
         return returnString;
     }
 
-    public static String contentInfoBox( String element) throws IOException {
+    public static String contentInfoBox(String element) throws IOException {
         String returnString = "";
-        Document doc = Jsoup.connect("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n%E2%80%93Vi%E1%BB%87t_(42%E2%80%9343)").get();
+        Document doc = Jsoup.connect(
+                "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n%E2%80%93Vi%E1%BB%87t_(42%E2%80%9343)")
+                .get();
         Element content = doc.getElementsByClass("infobox vevent").first();
         Element contentSpecial = content.getElementsMatchingOwnText(element).first();
 
@@ -121,17 +126,32 @@ public class Main {
         return returnString;
     }
 
-    public static void mota(String url) throws IOException{
+    public static void mota(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
         Element div = doc.select("div.mw-parser-output").first();
         Elements paragraphs = div.select("p");
         Element pElement = paragraphs.get(0);
         System.out.println(pElement);
     }
+
+    public static void list(String url) throws IOException {
+        Document doc = Jsoup.connect(url).get();
+        Element divElements = doc.select("div[style=\"padding:0em 0.25em\"]").first();
+        Elements href = divElements.select("a");
+        for (Element i : href) {
+            String linkUrl = i.attr("abs:href");
+            //System.out.println(linkUrl);
+            if (checkOneLevelUrl(linkUrl)) {
+                System.out.println(linkUrl);
+                System.out.println(i.text());
+            }
+        }
+    }
+
     public static void main(String[] args) throws IOException {
         // System.out
         //         .println(theloai("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t"));
         //System.out.println(contentInfoBox("Thời gian"));
-        mota("https://vi.wikipedia.org/wiki/Th%E1%BA%A3m_s%C3%A1t_Ba_Ch%C3%BAc");
+        list("https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Paris_1973");
     }
 }

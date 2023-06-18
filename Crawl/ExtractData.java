@@ -1,4 +1,4 @@
-package Main;
+package Crawl;
 
 // import org.jsoup.*;
 import org.jsoup.nodes.Document;
@@ -18,9 +18,9 @@ import java.util.List;
 import java.util.Map;
 
 public class ExtractData {
-    List<Map<String, String >> data = new ArrayList<>();
+    //List<Map<String, String >> data = new ArrayList<>();
 
-    JSONArray jsonArray = new JSONArray();
+    public static JSONArray jsonArray = new JSONArray();
     public static List<String> listUrl = new ArrayList<>();
 
     public static int size = 0;
@@ -92,7 +92,6 @@ public class ExtractData {
             if (nextLink != null && nextLink.tagName().equalsIgnoreCase("dl")) {
                 Elements elements_dd = nextLink.select("dd");
                 for (Element i : elements_dd) {
-                    //Map<String, String> entry = new HashMap<>();
                     Map<String, Object> entry = new HashMap<>();    
                     String thoigiancuthe = i.select("b").text() + " " + thoigian;
                     i.child(0).remove();
@@ -106,11 +105,8 @@ public class ExtractData {
                         if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                             listUrl.add(linkChildUrl);
                             infobox(linkEvent, entry);
-                            //entry.put("Link", linkChildUrl);
-                            // infobox(linkEvent, entry, entry1);
                         }
                     }
-                    //data.add(entry);
                     size++;
                     JSONObject jsonObject = new JSONObject(entry);
                     jsonArray.add(jsonObject);
@@ -128,16 +124,13 @@ public class ExtractData {
                 for (Element j : linkChild) {
                     String linkChildUrl = j.attr("abs:href");
                     LinkEvent linkEvent = new LinkEvent(linkChildUrl);
-                    //entry.put("Link" , linkChildUrl);
                     if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                         listUrl.add(linkChildUrl);
                         infobox(linkEvent, entry);
                     } else {
-                        //entry.put("Thực thể liên quan", j.text());
                         entry.put("Thể loại liên quan", linkEvent.contentInfoboxList());
                     }
                 }
-                //data.add(entry);
                 size++;
                 JSONObject jsonObject = new JSONObject(entry);
                 jsonArray.add(jsonObject);
@@ -151,7 +144,7 @@ public class ExtractData {
 
     public void writeDataToFile() throws IOException{
         try (
-                FileWriter fileWriter = new FileWriter("E:/OOP/javaProject/Main/extractData.json")) {
+                FileWriter fileWriter = new FileWriter("E:/OOP/javaProject/Crawl/extractData.json")) {
             String modifiedJsonString = unescapeUnicode(jsonArray.toString());
             fileWriter.write(modifiedJsonString);
             fileWriter.flush();
