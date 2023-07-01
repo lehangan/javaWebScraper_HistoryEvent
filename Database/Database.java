@@ -4,9 +4,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-
-import javax.swing.text.html.parser.Element;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

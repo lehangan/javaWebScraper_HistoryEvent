@@ -96,6 +96,7 @@ public class ExtractData {
                     String thoigiancuthe = i.select("b").text() + " " + thoigian;
                     i.child(0).remove();
                     entry.put("Sự kiện", i.text());
+                    entry.put("id" , i.text());
                     entry.put("Thời gian", thoigiancuthe);
                     entry.put("Thời kỳ (Triều đại)", thoidai);
                     Elements linkChild = i.select("a");
@@ -118,6 +119,7 @@ public class ExtractData {
                 link.child(0).remove();
                 String sukien = link.text();
                 entry.put("Sự kiện", sukien);
+                entry.put("id" , sukien);
                 entry.put("Thời gian", thoigian);
                 entry.put("Thời kỳ (Triều đại)", thoidai);
                 Elements linkChild = link.select("a");

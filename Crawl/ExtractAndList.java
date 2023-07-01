@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.json.simple.JSONArray;
+
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -75,6 +75,7 @@ public class ExtractAndList extends ExtractData {
         }
         // entry.put("Link" , url);
         entry.put("Sự kiện", sukien);
+        entry.put("id",sukien);
         entry.put("Thời gian", thoigian);
         infobox(linkEvent, entry);
         JSONObject jsonObject = new JSONObject(entry);
@@ -117,7 +118,8 @@ public class ExtractAndList extends ExtractData {
         searchMoreLink.writeListUrl(listUrlNew,
                 "E:/OOP/javaProject/Crawl/eventLinkNew.txt");
         searchMoreLink.wrtieDataAll();
-
+        for( int i = 0 ; i<=6 ; i++)
+            jsonArray.remove(i);
         Database database = new Database(jsonArray);
         //searchMoreLink.writeDataToFile();
 

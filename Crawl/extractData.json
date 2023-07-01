@@ -1,30 +1,18 @@
 [
     {
-        "Thời kỳ (Triều đại)": "",
-        "Thời gian": "Thời tiền sử",
-        "Sự kiện": ""
-    },
-    {
+        "id": "",
         "Thời kỳ (Triều đại)": "",
         "Thời gian": "Hồng Bàng",
         "Sự kiện": ""
     },
     {
-        "Thời kỳ (Triều đại)": "",
-        "Thời gian": "An Dương Vương",
-        "Sự kiện": ""
-    },
-    {
+        "id": "",
         "Thời kỳ (Triều đại)": "",
         "Thời gian": "Xem thêm",
         "Sự kiện": ""
     },
     {
-        "Thời kỳ (Triều đại)": "",
-        "Thời gian": "Niên biểu lịch sử Việt Nam",
-        "Sự kiện": "là hệ thống các sự kiện lịch sử Việt Nam nổi bật theo thời gian từ các thời tiền sử, huyền sử, cổ đại, trung đại, cận đại cho tới lịch sử hiện đại ngày nay."
-    },
-    {
+        "id": "Văn hóa Soi Nhụ",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -36,19 +24,7 @@
         "Sự kiện": "Văn hóa Soi Nhụ"
     },
     {
-        "Thể loại liên quan": [
-            "Sơ khai khảo cổ học",
-            "Sơ khai lịch sử Việt Nam",
-            "Khảo cổ Việt Nam",
-            "Thái Nguyên",
-            "Lạng Sơn",
-            "Bắc Kạn"
-        ],
-        "Thời kỳ (Triều đại)": "Thời đại đồ đá cũ",
-        "Thời gian": "23.000 TCN",
-        "Sự kiện": "Văn hóa Ngườm"
-    },
-    {
+        "id": "Văn hóa Tràng An",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -62,20 +38,7 @@
         "Sự kiện": "Văn hóa Tràng An"
     },
     {
-        "Thể loại liên quan": [
-            "Văn hóa cổ Việt Nam",
-            "Khảo cổ Việt Nam",
-            "Sơ khai khảo cổ học",
-            "Văn minh",
-            "Việt Nam cổ đại",
-            "Lịch sử Đông Nam Á",
-            "Dân tộc cổ đại châu Á"
-        ],
-        "Thời kỳ (Triều đại)": "Thời đại đồ đá cũ",
-        "Thời gian": "20.000 TCN-12.000 TCN",
-        "Sự kiện": "Văn hóa Sơn Vi"
-    },
-    {
+        "id": "Văn hóa Hòa Bình",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -89,21 +52,7 @@
         "Sự kiện": "Văn hóa Hòa Bình"
     },
     {
-        "Thể loại liên quan": [
-            "Văn hóa cổ Việt Nam",
-            "Khảo cổ Việt Nam",
-            "Sơ khai khảo cổ học",
-            "Văn minh",
-            "Việt Nam cổ đại",
-            "Lịch sử Đông Nam Á",
-            "Châu Á thời đại đồ đá",
-            "Dân tộc cổ đại"
-        ],
-        "Thời kỳ (Triều đại)": "Thời đại đồ đá mới",
-        "Thời gian": "10.000 TCN - 8.000 TCN",
-        "Sự kiện": "Văn hóa Bắc Sơn"
-    },
-    {
+        "id": "Văn hóa Quỳnh Văn",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -116,18 +65,7 @@
         "Sự kiện": "Văn hóa Quỳnh Văn"
     },
     {
-        "Thể loại liên quan": [
-            "Văn hóa cổ Việt Nam",
-            "Khảo cổ Việt Nam",
-            "Sơ khai Quảng Ninh",
-            "Lịch sử Việt Nam",
-            "Quảng Ninh"
-        ],
-        "Thời kỳ (Triều đại)": "Thời đại đồ đá mới",
-        "Thời gian": "7.000 TCN - 5.000 TCN",
-        "Sự kiện": "Văn hóa Cái Bèo"
-    },
-    {
+        "id": "Văn hóa Đa Bút",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -142,6 +80,7 @@
         "Sự kiện": "Văn hóa Đa Bút"
     },
     {
+        "id": "Văn hóa Hạ Long",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -152,6 +91,7 @@
         "Sự kiện": "Văn hóa Hạ Long"
     },
     {
+        "id": "Văn hóa Phùng Nguyên",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -164,12 +104,14 @@
         "Sự kiện": "Văn hóa Phùng Nguyên"
     },
     {
+        "id": "Văn hóa Tiền Sa Huỳnh",
         "Thể loại liên quan": [],
         "Thời kỳ (Triều đại)": "Thời đại đồ đồng đá",
         "Thời gian": "2.000 TCN-1.000 TCN",
         "Sự kiện": "Văn hóa Tiền Sa Huỳnh"
     },
     {
+        "id": "Văn hóa Đồng Đậu",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -186,6 +128,7 @@
         "Sự kiện": "Văn hóa Đồng Đậu"
     },
     {
+        "id": "Văn hóa Gò Mun",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -201,6 +144,7 @@
         "Sự kiện": "Văn hóa Gò Mun"
     },
     {
+        "id": "Văn hóa Sa Huỳnh",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -216,6 +160,7 @@
         "Sự kiện": "Văn hóa Sa Huỳnh"
     },
     {
+        "id": "Văn hóa Đồng Nai",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -228,6 +173,7 @@
         "Sự kiện": "Văn hóa Đồng Nai"
     },
     {
+        "id": "Văn hóa Đông Sơn",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -242,6 +188,7 @@
         "Sự kiện": "Văn hóa Đông Sơn"
     },
     {
+        "id": "Văn hóa Óc Eo",
         "Thể loại liên quan": [
             "Văn hóa cổ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -254,6 +201,7 @@
         "Sự kiện": "Văn hóa Óc Eo"
     },
     {
+        "id": "vua Hùng thành lập quốc gia Văn Lang",
         "Thể loại liên quan": [
             "Quốc hiệu Việt Nam",
             "Cựu quốc gia trong lịch sử Việt Nam",
@@ -265,6 +213,7 @@
         "Sự kiện": "vua Hùng thành lập quốc gia Văn Lang"
     },
     {
+        "id": "An Dương Vương thôn tính Văn Lang, thành lập quốc gia Âu Lạc",
         "Thể loại liên quan": [
             "Lịch sử Việt Nam thời An Dương Vương",
             "Quốc hiệu Việt Nam",
@@ -304,6 +253,7 @@
             "Nhà Tần"
         ],
         "Địa điểm liên quan": "Hoa Nam và miền Bắc Việt Nam (tranh chấp)",
+        "id": "Chiến tranh Tần-Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Dịch Hu Tống",
             "Thục Phán",
@@ -315,6 +265,7 @@
         "Thời gian": "218 TCN - 207 TCN"
     },
     {
+        "id": "Triệu Đà xâm lược nước Âu Lạc, sáp nhập vào quốc gia Nam Việt",
         "Thể loại liên quan": [
             "Nam Việt",
             "Cựu quốc gia trong lịch sử Việt Nam",
@@ -356,6 +307,7 @@
             "Nam Việt"
         ],
         "Địa điểm liên quan": "Lưỡng Quảng và miền Bắc Việt Nam",
+        "id": "Chiến tranh Hán-Nam Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lộ Bác Đức",
             "Dương Bộc",
@@ -368,6 +320,7 @@
         "Thời gian": "111 TCN"
     },
     {
+        "id": "nhà Hán thôn tính Nam Việt",
         "Thể loại liên quan": [
             "Nam Việt",
             "Cựu quốc gia trong lịch sử Việt Nam",
@@ -401,6 +354,7 @@
             "Lạc Việt"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam",
+        "id": "khởi nghĩa Hai Bà Trưng, Trưng Trắc thành lập quốc gia Lĩnh Nam, kinh đô đặt tại Mê Linh",
         "Nhân vật liên quan (Chỉ huy)": [
             "Mã Viện",
             "[a]",
@@ -430,6 +384,7 @@
             "Nhà Đông Hán"
         ],
         "Địa điểm liên quan": "Giao Chỉ, nay là miền Bắc Việt Nam",
+        "id": "Chiến tranh Lĩnh Nam - Đông Hán",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trưng Trắc",
             "-",
@@ -453,6 +408,7 @@
         "Thời gian": "42 - 43"
     },
     {
+        "id": "Đông Hán thôn tính Lĩnh Nam",
         "Thể loại liên quan": [
             "Lịch sử Việt Nam thời Hồng Bàng",
             "Sơ khai địa lý Cộng hòa Nhân dân Trung Hoa",
@@ -463,6 +419,7 @@
         "Sự kiện": "Đông Hán thôn tính Lĩnh Nam"
     },
     {
+        "id": "Khởi nghĩa Chu Đạt",
         "Thể loại liên quan": [
             "Sơ khai lịch sử",
             "Khởi nghĩa Việt Nam thời Bắc thuộc lần 2",
@@ -473,6 +430,7 @@
         "Sự kiện": "Khởi nghĩa Chu Đạt"
     },
     {
+        "id": "Khởi nghĩa Lương Long",
         "Thể loại liên quan": [
             "Khởi nghĩa Việt Nam thời Bắc thuộc lần 2"
         ],
@@ -481,6 +439,7 @@
         "Sự kiện": "Khởi nghĩa Lương Long"
     },
     {
+        "id": "Khu Liên khởi nghĩa, tách quận Nhật Nam thành lập quốc gia Lâm Ấp",
         "Thể loại liên quan": [
             "Cựu quốc gia trong lịch sử Việt Nam",
             "Lịch sử Chăm Pa"
@@ -490,11 +449,13 @@
         "Sự kiện": "Khu Liên khởi nghĩa, tách quận Nhật Nam thành lập quốc gia Lâm Ấp"
     },
     {
+        "id": "Tôn Quyền xưng đế, lập nước Đông Ngô, ly khai nhà Hán",
         "Thời kỳ (Triều đại)": "Thuộc Đông Ngô",
         "Thời gian": "23 tháng 6 229",
         "Sự kiện": "Tôn Quyền xưng đế, lập nước Đông Ngô, ly khai nhà Hán"
     },
     {
+        "id": "Khởi nghĩa Bà Triệu",
         "Thể loại liên quan": [
             "Sinh năm 226",
             "Mất năm 248",
@@ -526,6 +487,7 @@
             "Đông Ngô"
         ],
         "Địa điểm liên quan": "Phía Đông NamTrung Quốc",
+        "id": "Chiến tranh Tấn - Ngô",
         "Nhân vật liên quan (Chỉ huy)": [
             "Tư Mã Viêm",
             "Vương Tuấn",
@@ -539,6 +501,7 @@
         "Thời gian": "280"
     },
     {
+        "id": "Lưu Dụ ép Tấn Cung Đế nhường ngôi, lập ra nhà Lưu Tống",
         "Thể loại liên quan": [
             "Lưu Tống",
             "Cựu quốc gia trong lịch sử Trung Quốc",
@@ -549,6 +512,7 @@
         "Sự kiện": "Lưu Dụ ép Tấn Cung Đế nhường ngôi, lập ra nhà Lưu Tống"
     },
     {
+        "id": "Thứ sử Giao Châu Đàn Hòa Chi đánh Lâm Ấp, cướp châu báu rút về",
         "Thể loại liên quan": [
             "Cựu quốc gia trong lịch sử Việt Nam",
             "Lịch sử Chăm Pa"
@@ -558,6 +522,7 @@
         "Sự kiện": "Thứ sử Giao Châu Đàn Hòa Chi đánh Lâm Ấp, cướp châu báu rút về"
     },
     {
+        "id": "khởi nghĩa Lý Trường Nhân",
         "Thể loại liên quan": [
             "Khởi nghĩa Việt Nam thời Bắc thuộc lần 2"
         ],
@@ -566,6 +531,7 @@
         "Sự kiện": "khởi nghĩa Lý Trường Nhân"
     },
     {
+        "id": "Tiêu Đạo Thành phế Lưu Chuẩn tự làm vua, thành lập nhà Nam Tề",
         "Thể loại liên quan": [
             "Nam Tề",
             "Cựu quốc gia trong lịch sử Trung Quốc",
@@ -576,6 +542,7 @@
         "Sự kiện": "Tiêu Đạo Thành phế Lưu Chuẩn tự làm vua, thành lập nhà Nam Tề"
     },
     {
+        "id": "Tiêu Diễn phế truất Tiêu Bảo Dung, thành lập nhà Lương",
         "Thể loại liên quan": [
             "Nhà Lương",
             "Thành lập 502",
@@ -600,6 +567,7 @@
             "Nhà Lương"
         ],
         "Địa điểm liên quan": "nước Vạn Xuân",
+        "id": "khởi nghĩa Lý Bí",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lý Bí",
             "Triệu Quang Phục",
@@ -615,6 +583,7 @@
         "Thời gian": "541"
     },
     {
+        "id": "Lý Bí thành lập quốc gia Vạn Xuân",
         "Thể loại liên quan": [
             "Lịch sử Việt Nam thời Tiền Lý",
             "Quốc hiệu Việt Nam",
@@ -636,6 +605,7 @@
             "Nhà Tiền Lý"
         ],
         "Địa điểm liên quan": "Bắc Việt Nam",
+        "id": "Chiến tranh Tùy-Vạn Xuân",
         "Nhân vật liên quan (Chỉ huy)": [
             "Tùy Văn Đế",
             "Lưu Phương",
@@ -645,16 +615,19 @@
         "Thời gian": "602"
     },
     {
+        "id": "Lý Uyên tuyên bố thành lập nhà Đường",
         "Thời kỳ (Triều đại)": "Thuộc Đường",
         "Thời gian": "tháng 3 618",
         "Sự kiện": "Lý Uyên tuyên bố thành lập nhà Đường"
     },
     {
+        "id": "Lý Uyên ép Dương Hựu nhường ngôi",
         "Thời kỳ (Triều đại)": "Thuộc Đường",
         "Thời gian": "tháng 5 618",
         "Sự kiện": "Lý Uyên ép Dương Hựu nhường ngôi"
     },
     {
+        "id": "khởi nghĩa Lý Tự Tiên",
         "Thể loại liên quan": [
             "Sơ khai nhân vật Việt Nam",
             "Mất năm 687",
@@ -667,6 +640,7 @@
         "Sự kiện": "khởi nghĩa Lý Tự Tiên"
     },
     {
+        "id": "khởi nghĩa Mai Hắc Đế",
         "Thể loại liên quan": [
             "Sinh năm 670",
             "Mất năm 722",
@@ -682,6 +656,7 @@
         "Sự kiện": "khởi nghĩa Mai Hắc Đế"
     },
     {
+        "id": "khởi nghĩa Phùng Hưng",
         "Thể loại liên quan": [
             "Người họ Phùng tại Việt Nam",
             "Vua Việt Nam",
@@ -696,6 +671,7 @@
         "Sự kiện": "khởi nghĩa Phùng Hưng"
     },
     {
+        "id": "Khúc Thừa Dụ xây dựng chính quyền tự chủ",
         "Thể loại liên quan": [
             "Sinh năm 830",
             "Mất năm 907",
@@ -728,6 +704,7 @@
             "Tĩnh Hải quân"
         ],
         "Địa điểm liên quan": "Sông Bạch Đằng nay thuộc Quảng Yên (Quảng Ninh) và Thủy Nguyên (Hải Phòng)",
+        "id": "Trận Bạch Đằng, Ngô Quyền đánh bại quân Nam Hán trên sông Bạch Đằng",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lưu Cung",
             "Lưu Hoằng Tháo",
@@ -738,9 +715,9 @@
         "Thời gian": "938"
     },
     {
+        "id": "Ngô Quyền xưng vương, kinh đô Cổ Loa",
         "Thể loại liên quan": [
             "Di tích quốc gia đặc biệt",
-            "Du lịch Hà Nội",
             "Lịch sử Việt Nam thời An Dương Vương",
             "Cố đô Việt Nam",
             "Lịch sử Hà Nội",
@@ -757,6 +734,7 @@
         "Sự kiện": "Ngô Quyền xưng vương, kinh đô Cổ Loa"
     },
     {
+        "id": "Loạn 12 sứ quân",
         "Thể loại liên quan": [
             "Loạn 12 sứ quân",
             "Lịch sử Việt Nam",
@@ -769,6 +747,7 @@
         "Sự kiện": "Loạn 12 sứ quân"
     },
     {
+        "id": "Đinh Bộ Lĩnh xưng đế, thành lập quốc gia Đại Cồ Việt, kinh đô Hoa Lư",
         "Thể loại liên quan": [
             "Cố đô Việt Nam",
             "Lịch sử Việt Nam thời Tiền Lê",
@@ -786,6 +765,7 @@
         "Sự kiện": "Đinh Bộ Lĩnh xưng đế, thành lập quốc gia Đại Cồ Việt, kinh đô Hoa Lư"
     },
     {
+        "id": "Đinh Bộ Lĩnh cho đúc Thái Bình hưng bảo, đồng tiền đầu tiên của Việt Nam",
         "Thể loại liên quan": [
             "Đơn vị tiền tệ Việt Nam",
             "Khảo cổ Việt Nam",
@@ -798,6 +778,7 @@
         "Sự kiện": "Đinh Bộ Lĩnh cho đúc Thái Bình hưng bảo, đồng tiền đầu tiên của Việt Nam"
     },
     {
+        "id": "Đinh Bộ Lĩnh cùng con trai bị sát hại",
         "Thể loại liên quan": [
             "Sinh năm 924",
             "Mất năm 979",
@@ -812,6 +793,7 @@
         "Sự kiện": "Đinh Bộ Lĩnh cùng con trai bị sát hại"
     },
     {
+        "id": "Lê Hoàn lên ngôi vua, thành lập nhà Tiền Lê",
         "Thể loại liên quan": [
             "Nhà Tiền Lê",
             "Khởi đầu năm 980",
@@ -839,6 +821,7 @@
             "Tống"
         ],
         "Địa điểm liên quan": "miền Bắc Việt Nam",
+        "id": "Chiến tranh Tống - Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Hoàn",
             "Phạm Cự Lạng",
@@ -850,11 +833,13 @@
         "Thời gian": "tháng 1 - tháng 4 981"
     },
     {
+        "id": "Lý Công Uẩn lên ngôi vua, thành lập nhà Lý",
         "Thời kỳ (Triều đại)": "Nhà Lý",
         "Thời gian": "21 tháng 11 1009",
         "Sự kiện": "Lý Công Uẩn lên ngôi vua, thành lập nhà Lý"
     },
     {
+        "id": "Lý Công Uẩn dời đô về Thăng Long",
         "Thể loại liên quan": [
             "Địa danh cũ Việt Nam",
             "Thương cảng cổ Việt Nam",
@@ -866,6 +851,7 @@
         "Sự kiện": "Lý Công Uẩn dời đô về Thăng Long"
     },
     {
+        "id": "Lý Thánh Tông lên ngôi, đổi tên nước từ Đại Cồ Việt thành Đại Việt",
         "Thể loại liên quan": [
             "Quốc hiệu Việt Nam",
             "Cựu quốc gia trong lịch sử Việt Nam",
@@ -888,6 +874,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Vương quốc Chiêm Thành",
+        "id": "Chiến tranh Việt-Chiêm, Đại Việt chiếm được 3 châu của Chiêm Thành",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lý Thánh Tông",
             "Lý Thường Kiệt",
@@ -914,6 +901,7 @@
             "nhà Lý"
         ],
         "Địa điểm liên quan": "Một phần miền nam Đại Tống[a] và Đại Việt[b]",
+        "id": "Chiến tranh Tống-Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Quách Quỳ",
             "Triệu Tiết",
@@ -946,6 +934,7 @@
             "Đại Việt"
         ],
         "Địa điểm liên quan": "sông Như Nguyệt, Đại Việt",
+        "id": "Trận Như Nguyệt, đẩy lùi quân xâm lược Tống",
         "Nhân vật liên quan (Chỉ huy)": [
             "Quách Quỳ",
             "Triệu Tiết",
@@ -966,6 +955,7 @@
         "Thời gian": "18 tháng 1 - 28 tháng 2 1077"
     },
     {
+        "id": "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, thành lập nhà Trần",
         "Thời kỳ (Triều đại)": "Nhà Trần",
         "Thời gian": "10 tháng 1 1226",
         "Sự kiện": "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, thành lập nhà Trần"
@@ -991,6 +981,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Đại Việt",
+        "id": "Chiến tranh Nguyên Mông-Đại Việt lần 1",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Thái Tông",
             "Trần Thánh Tông",
@@ -1009,6 +1000,7 @@
         "Thời gian": "1258"
     },
     {
+        "id": "Hội nghị Bình Than, triệu họp vương hầu, trăm quan",
         "Thể loại liên quan": [
             "Lịch sử Việt Nam thời Trần"
         ],
@@ -1017,6 +1009,7 @@
         "Sự kiện": "Hội nghị Bình Than, triệu họp vương hầu, trăm quan"
     },
     {
+        "id": "Hội nghị Diên Hồng, triệu họp bô lão cả nước",
         "Thể loại liên quan": [
             "Sơ khai lịch sử Việt Nam",
             "Lịch sử Việt Nam thời Trần",
@@ -1048,6 +1041,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Bắc Bộ và Bắc Trung Bộ Việt Nam",
+        "id": "Chiến tranh Nguyên Mông-Đại Việt lần 2",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Thánh Tông",
             "Trần Nhân Tông",
@@ -1116,6 +1110,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Bắc Việt Nam",
+        "id": "Chiến tranh Nguyên Mông-Đại Việt lần 3",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Thánh Tông",
             "Trần Nhân Tông",
@@ -1163,6 +1158,7 @@
         "Thời gian": "1287-1288"
     },
     {
+        "id": "phát hành Thông Bảo hội sao theo chủ trương của Hồ Quý Ly, đây là tiền giấy đầu tiên của Việt Nam",
         "Thể loại liên quan": [
             "Sinh năm 1336",
             "Mất năm 1407",
@@ -1181,6 +1177,7 @@
         "Sự kiện": "phát hành Thông Bảo hội sao theo chủ trương của Hồ Quý Ly, đây là tiền giấy đầu tiên của Việt Nam"
     },
     {
+        "id": "Hồ Quý Ly ép Trần Thuận Tông dời đô về Tây Đô",
         "Thể loại liên quan": [
             "Di tích quốc gia đặc biệt",
             "Di sản thế giới tại Việt Nam",
@@ -1198,11 +1195,13 @@
         "Sự kiện": "Hồ Quý Ly ép Trần Thuận Tông dời đô về Tây Đô"
     },
     {
+        "id": "Hồ Quý Ly lên ngôi, thành lập nhà Hồ, đổi tên nước thành Đại Ngu",
         "Thời kỳ (Triều đại)": "Nhà Hồ",
         "Thời gian": "22 tháng 3 1400",
         "Sự kiện": "Hồ Quý Ly lên ngôi, thành lập nhà Hồ, đổi tên nước thành Đại Ngu"
     },
     {
+        "id": "Chiến tranh Việt-Chiêm",
         "Thể loại liên quan": [
             "Lịch sử Việt Nam thời Hồ",
             "Lịch sử Chăm Pa",
@@ -1236,6 +1235,7 @@
             "Nhà Minh"
         ],
         "Địa điểm liên quan": "Việt Nam",
+        "id": "Chiến tranh Đại Ngu-Đại Minh",
         "Nhân vật liên quan (Chỉ huy)": [
             "Hồ Quý Ly",
             "Hồ Hán Thương",
@@ -1282,11 +1282,13 @@
         "Thời gian": "1406-1407"
     },
     {
+        "id": "Trần Ngỗi xưng Giản Định đế, lập nên nhà Hậu Trần",
         "Thời kỳ (Triều đại)": "Thuộc Minh",
         "Thời gian": "2 tháng 10 1407",
         "Sự kiện": "Trần Ngỗi xưng Giản Định đế, lập nên nhà Hậu Trần"
     },
     {
+        "id": "nhà Hậu Trần bị nhà Minh đánh bại",
         "Thể loại liên quan": [
             "Bài viết Wikipedia chứa nhận dạng NLK sai",
             "Nhà Minh",
@@ -1320,6 +1322,7 @@
             "Ai Lao"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam và một phần Bắc Trung Bộ hiện nay",
+        "id": "khởi nghĩa Lam Sơn",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Lợi",
             "Lê Thạch",
@@ -1362,11 +1365,13 @@
         "Thời gian": "1418-1427"
     },
     {
+        "id": "Lê Lợi thành lập quốc gia Đại Việt, đặt kinh đô tại Đông Kinh",
         "Thời kỳ (Triều đại)": "Nhà Lê sơ",
         "Thời gian": "29 tháng 4 1428",
         "Sự kiện": "Lê Lợi thành lập quốc gia Đại Việt, đặt kinh đô tại Đông Kinh"
     },
     {
+        "id": "Vụ án Lệ Chi viên",
         "Thể loại liên quan": [
             "Việt Nam năm 1442",
             "Nguyễn Trãi",
@@ -1380,6 +1385,7 @@
         "Sự kiện": "Vụ án Lệ Chi viên"
     },
     {
+        "id": "Chính biến Thiên Hưng, Lê Thánh Tông lên ngôi",
         "Thể loại liên quan": [
             "Tao đàn Nhị thập bát Tú",
             "Sinh năm 1442",
@@ -1411,6 +1417,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+        "id": "Chiến tranh Việt-Chiêm, miền bắc Chiêm Thành sáp nhập vào Đại Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Thánh Tông",
             "Đinh Liệt",
@@ -1443,6 +1450,7 @@
             "Muang Phuan"
         ],
         "Địa điểm liên quan": "Lào, Việt Nam, Vân Nam ngày nay",
+        "id": "Chiến tranh Đại Việt-Lan Xang",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Thánh Tông",
             "Lê Thọ Vực",
@@ -1480,6 +1488,7 @@
         "Thời gian": "1478-1480"
     },
     {
+        "id": "biên soạn Luật Hồng Đức",
         "Thể loại liên quan": [
             "Pháp luật phong kiến Việt Nam",
             "Pháp luật Việt Nam thời Lê sơ",
@@ -1491,6 +1500,7 @@
         "Sự kiện": "biên soạn Luật Hồng Đức"
     },
     {
+        "id": "khởi nghĩa Trần Tuân",
         "Thể loại liên quan": [
             "Quân nổi dậy Việt Nam",
             "Người Hà Nội",
@@ -1501,6 +1511,7 @@
         "Sự kiện": "khởi nghĩa Trần Tuân"
     },
     {
+        "id": "khởi nghĩa Trần Cảo",
         "Thể loại liên quan": [
             "Người Hải Phòng",
             "Quân nổi dậy Việt Nam",
@@ -1522,6 +1533,7 @@
             "Nhà Lê"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam",
+        "id": "Khủng hoảng cuối nhà Lê sơ và nội chiến",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Tương Dực",
             "Lê Chiêu Tông",
@@ -1555,6 +1567,7 @@
         "Thời gian": "1516-1526"
     },
     {
+        "id": "Mạc Đăng Dung ép Lê Cung Hoàng nhường ngôi, lập lên nhà Mạc",
         "Thể loại liên quan": [
             "Nhà Mạc",
             "Khởi đầu năm 1527 ở Việt Nam",
@@ -1571,6 +1584,7 @@
         "Sự kiện": "Mạc Đăng Dung ép Lê Cung Hoàng nhường ngôi, lập lên nhà Mạc"
     },
     {
+        "id": "Nguyễn Kim lập Lê Ninh làm vua, tái lập nhà Lê, đóng đô tại Vạn Lại",
         "Thể loại liên quan": [
             "Cố đô Việt Nam",
             "Lịch sử Việt Nam thời Lê trung hưng",
@@ -1605,6 +1619,7 @@
             "Chúa Bầu"
         ],
         "Địa điểm liên quan": "Bắc Bộ và Bắc Trung Bộ Việt Nam",
+        "id": "Chiến tranh Lê-Mạc",
         "Nhân vật liên quan (Chỉ huy)": [
             "Mạc Thái Tổ",
             "Mạc Thái Tông",
@@ -1647,6 +1662,7 @@
         "Thời gian": "1533-1677"
     },
     {
+        "id": "nhà Lê trung hưng đánh bại nhà Mạc, lên nắm quyền điều hành đất nước",
         "Thể loại liên quan": [
             "Nhà Mạc",
             "Khởi đầu năm 1527 ở Việt Nam",
@@ -1663,6 +1679,7 @@
         "Sự kiện": "nhà Lê trung hưng đánh bại nhà Mạc, lên nắm quyền điều hành đất nước"
     },
     {
+        "id": "Lê Thế Tông dời đô về Đông Kinh",
         "Thể loại liên quan": [
             "Địa danh cũ Việt Nam",
             "Thương cảng cổ Việt Nam",
@@ -1674,6 +1691,7 @@
         "Sự kiện": "Lê Thế Tông dời đô về Đông Kinh"
     },
     {
+        "id": "Nguyễn Hoàng vào trấn thủ Thuận Hóa",
         "Thể loại liên quan": [
             "Sơ khai Quảng Bình",
             "Địa danh cũ Việt Nam",
@@ -1714,6 +1732,7 @@
             "[1]"
         ],
         "Địa điểm liên quan": "Đàng Trong Đàng Ngoài",
+        "id": "Trịnh - Nguyễn phân tranh",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trịnh Tráng",
             "Trịnh Tạc",
@@ -1748,6 +1767,7 @@
         "Thời gian": "1627-1672"
     },
     {
+        "id": "nhà Lê trung hưng đánh bại hoàn toàn nhà Mạc",
         "Thể loại liên quan": [
             "Nhà Mạc",
             "Khởi đầu năm 1527 ở Việt Nam",
@@ -1764,6 +1784,7 @@
         "Sự kiện": "nhà Lê trung hưng đánh bại hoàn toàn nhà Mạc"
     },
     {
+        "id": "khởi nghĩa Tây Sơn",
         "Thể loại liên quan": [
             "Nhà Tây Sơn",
             "Khởi đầu năm 1778",
@@ -1789,6 +1810,7 @@
             "Chúa Nguyễn"
         ],
         "Địa điểm liên quan": "Quảng Bình, Quảng Trị, Thừa Thiên-Huế - Việt Nam",
+        "id": "chiến tranh Bình Nam",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trịnh Sâm",
             "Hoàng Ngũ Phúc",
@@ -1810,6 +1832,7 @@
         "Thời gian": "1774-1775"
     },
     {
+        "id": "Nguyễn Ánh xưng vương",
         "Thể loại liên quan": [
             "Trang cần được biên tập lại thuộc chủ đề trích dẫn dài dòng, viết không súc tích",
             "Sinh năm 1762",
@@ -1823,6 +1846,7 @@
         "Sự kiện": "Nguyễn Ánh xưng vương"
     },
     {
+        "id": "Nguyễn Nhạc phong làm Bắc Bình Vương",
         "Thời kỳ (Triều đại)": "Nhà Lê trung hưng",
         "Thời gian": " 1778",
         "Sự kiện": "Nguyễn Nhạc phong làm Bắc Bình Vương"
@@ -1852,6 +1876,7 @@
             "Chúa Nguyễn"
         ],
         "Địa điểm liên quan": "Rạch Gầm - Xoài Mút, dinh Trấn Định, Đàng Trong (nay là tỉnh Tiền Giang, Việt Nam)",
+        "id": "Nguyễn Huệ phá tan quân Xiêm tại Rạch Gầm - Xoài Mút",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Huệ",
             "Nguyễn Lữ",
@@ -1874,6 +1899,7 @@
         "Thời gian": "19 tháng 1 - 20 tháng 1 1785"
     },
     {
+        "id": "Nguyễn Huệ xưng đế, đặt niên hiệu Quang Trung, đặt kinh đô tại Phú Xuân",
         "Thời kỳ (Triều đại)": "Nhà Tây Sơn",
         "Thời gian": "22 tháng 12 1788",
         "Sự kiện": "Nguyễn Huệ xưng đế, đặt niên hiệu Quang Trung, đặt kinh đô tại Phú Xuân"
@@ -1899,6 +1925,7 @@
             "Nhà Lê Trung Hưng"
         ],
         "Địa điểm liên quan": "Miền Bắc Đại Việt",
+        "id": "Trận Ngọc Hồi - Đống Đa, đẩy lui quân xâm lược nhà Thanh, nhà Hậu Lê sụp đổ",
         "Nhân vật liên quan (Chỉ huy)": [
             "Quang Trung",
             "Phan Văn Lân",
@@ -1945,11 +1972,13 @@
         "Thời gian": "1789"
     },
     {
+        "id": "Nguyễn Huệ qua đời, con trai Nguyễn Quang Toản lên ngôi",
         "Thời kỳ (Triều đại)": "Nhà Tây Sơn",
         "Thời gian": "16 tháng 9 1792",
         "Sự kiện": "Nguyễn Huệ qua đời, con trai Nguyễn Quang Toản lên ngôi"
     },
     {
+        "id": "Nguyễn Ánh đánh bại nhà Tây Sơn, lên ngôi vua, đặt niên hiệu là Gia Long, lập lên nhà Nguyễn, đặt kinh đô tại Phú Xuân",
         "Thể loại liên quan": [
             "Di tích Cố đô Huế",
             "Di sản văn hoá vật thể",
@@ -1965,6 +1994,7 @@
         "Sự kiện": "Nguyễn Ánh đánh bại nhà Tây Sơn, lên ngôi vua, đặt niên hiệu là Gia Long, lập lên nhà Nguyễn, đặt kinh đô tại Phú Xuân"
     },
     {
+        "id": "Nổi dậy Đá Vách",
         "Thể loại liên quan": [
             "Cuộc nổi dậy thời Nguyễn"
         ],
@@ -1973,6 +2003,7 @@
         "Sự kiện": "Nổi dậy Đá Vách"
     },
     {
+        "id": "Nguyễn Ánh đổi tên nước thành Việt Nam",
         "Thể loại liên quan": [
             "Việt Nam",
             "Quốc gia thành viên của Liên Hợp Quốc",
@@ -2000,6 +2031,7 @@
             "Triều Nguyễn"
         ],
         "Địa điểm liên quan": "Hải Dương, Hải Phòng, Thái Bình, Nam Định ngày nay",
+        "id": "Khởi nghĩa Phan Bá Vành",
         "Nhân vật liên quan (Chỉ huy)": [
             "Phan Bá Vành",
             "Ba Hùm",
@@ -2043,6 +2075,7 @@
             "Triều Rattanakosin"
         ],
         "Địa điểm liên quan": "Đại Nam",
+        "id": "Chiến tranh Việt-Xiêm",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trương Minh Giảng",
             "Nguyễn Xuân",
@@ -2060,6 +2093,7 @@
         "Thời gian": "1833-1834"
     },
     {
+        "id": "Việt Nam thôn tính Chân Lạp, đặt làm Trấn Tây Thành",
         "Thể loại liên quan": [
             "Địa danh cũ Việt Nam"
         ],
@@ -2068,11 +2102,13 @@
         "Sự kiện": "Việt Nam thôn tính Chân Lạp, đặt làm Trấn Tây Thành"
     },
     {
+        "id": "Minh Mạng đổi tên nước thành Đại Nam",
         "Thời kỳ (Triều đại)": "Nhà Nguyễn",
         "Thời gian": "15 tháng 2 1839",
         "Sự kiện": "Minh Mạng đổi tên nước thành Đại Nam"
     },
     {
+        "id": "rút quân khỏi Trấn Tây Thành, Xiêm đặt Ang Duong lên ngôi, tái lập Chân Lạp",
         "Thể loại liên quan": [
             "Sơ khai Đông Nam Á",
             "Lịch sử Campuchia",
@@ -2104,6 +2140,7 @@
             "Quân Cờ Đen"
         ],
         "Địa điểm liên quan": "Khắp lãnh thổ Đại Nam và một phần của Nhà Thanh",
+        "id": "Chiến tranh Pháp-Đại Nam",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Napoleon III",
@@ -2145,6 +2182,7 @@
         "Thời gian": "1858-1884"
     },
     {
+        "id": "Bạo loạn ven biển",
         "Thể loại liên quan": [
             "Sơ khai lịch sử",
             "Cuộc nổi dậy thời Nguyễn"
@@ -2154,6 +2192,7 @@
         "Sự kiện": "Bạo loạn ven biển"
     },
     {
+        "id": "Chính biến chày vôi",
         "Thể loại liên quan": [
             "Cuộc nổi dậy thời Nguyễn",
             "Lịch sử Huế"
@@ -2163,6 +2202,7 @@
         "Sự kiện": "Chính biến chày vôi"
     },
     {
+        "id": "nhà Nguyễn cắt Nam Kỳ lục tỉnh nhượng cho Pháp",
         "Thể loại liên quan": [
             "Pháp",
             "Cộng hòa",
@@ -2206,6 +2246,7 @@
             "Quân Cờ Đen"
         ],
         "Địa điểm liên quan": "Khắp lãnh thổ Đại Nam và một phần của Nhà Thanh",
+        "id": "Hòa ước Giáp Thân, kết thúc Chiến tranh Pháp-Đại Nam, triều đình nhà Nguyễn chấp nhận sự bảo hộ của Pháp",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Napoleon III",
@@ -2270,6 +2311,7 @@
             "Nam Kỳ"
         ],
         "Địa điểm liên quan": "Bắc Kỳ, Trung Kỳ, Nam Kỳ",
+        "id": "phong trào Cần Vương",
         "Nhân vật liên quan (Chỉ huy)": [
             "Hàm Nghi",
             "Tôn Thất Thuyết",
@@ -2307,24 +2349,27 @@
         "Thời gian": "1885-1895"
     },
     {
+        "id": "thực dân Pháp thành lập Liên bang Đông Dương, gồm Bắc Kỳ, Trung Kỳ, Nam Kỳ và Campuchia, đặt thủ đô tại Sài Gòn",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "17 tháng 10 1887",
         "Sự kiện": "thực dân Pháp thành lập Liên bang Đông Dương, gồm Bắc Kỳ, Trung Kỳ, Nam Kỳ và Campuchia, đặt thủ đô tại Sài Gòn"
     },
     {
+        "id": "sáp nhập Lào vào Liên bang Đông Dương",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "3 tháng 10 1893",
         "Sự kiện": "sáp nhập Lào vào Liên bang Đông Dương"
     },
     {
+        "id": "sáp nhập Quảng Châu Loan vào Liên bang Đông Dương",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "12 tháng 4 1898",
         "Sự kiện": "sáp nhập Quảng Châu Loan vào Liên bang Đông Dương"
     },
     {
+        "id": "Liên bang Đông Dương dời thủ đô về Hà Nội",
         "Thể loại liên quan": [
             "Thành phố trực thuộc trung ương (Việt Nam)",
-            "Du lịch Hà Nội",
             "Thành phố của Việt Nam",
             "Hà Nội",
             "Khởi đầu năm 1010",
@@ -2336,6 +2381,7 @@
         "Sự kiện": "Liên bang Đông Dương dời thủ đô về Hà Nội"
     },
     {
+        "id": "phong trào Duy Tân",
         "Thể loại liên quan": [
             "Phong trào Duy Tân",
             "Lịch sử Việt Nam thời Pháp thuộc",
@@ -2348,6 +2394,7 @@
         "Sự kiện": "phong trào Duy Tân"
     },
     {
+        "id": "phong trào chống sưu thuế Trung Kỳ",
         "Thể loại liên quan": [
             "Lịch sử Việt Nam thời Pháp thuộc"
         ],
@@ -2452,6 +2499,7 @@
             "... và nhiều nước khác"
         ],
         "Địa điểm liên quan": "Châu Âu, Châu Phi, Trung Đông, Quần đảo Thái Bình Dương, Trung Quốc, Ấn Độ Dương, Bắc và Nam Đại Tây Dương",
+        "id": "khoảng 100.000 người Việt bị ép sang châu Âu chiến đấu cho Pháp trong Chiến tranh thế giới thứ nhất",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Raymond Poincaré",
@@ -2523,6 +2571,7 @@
             ""
         ],
         "Địa điểm liên quan": "Thái Nguyên",
+        "id": "khởi nghĩa Thái Nguyên",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Noël",
@@ -2549,11 +2598,13 @@
         "Thời gian": "1917"
     },
     {
+        "id": "Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "18 tháng 6 1919",
         "Sự kiện": "Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles"
     },
     {
+        "id": "hợp nhất ba tổ chức cộng sản thành Đảng Cộng sản Việt Nam",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "3 tháng 2 1930",
         "Sự kiện": "hợp nhất ba tổ chức cộng sản thành Đảng Cộng sản Việt Nam"
@@ -2584,6 +2635,7 @@
             "Nhà Nguyễn"
         ],
         "Địa điểm liên quan": "Nghệ An và Hà Tĩnh",
+        "id": "phong trào Xô Viết Nghệ Tĩnh",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Phú",
             "Nguyễn Đức Cảnh",
@@ -2706,6 +2758,7 @@
             "và nhiều nước khác-"
         ],
         "Địa điểm liên quan": "Châu Âu, Thái Bình Dương, Đại Tây Dương, Đông Nam Á, Trung Quốc, Trung Đông, Địa Trung Hải và Châu Phi, một phần Bắc và Nam Mỹ",
+        "id": "khoảng 20.000 thanh niên Việt Nam bị cưỡng bức phục vụ Pháp trong chiến tranh thế giới thứ hai",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Iosif Stalin",
@@ -2726,26 +2779,31 @@
         "Thời gian": "1939"
     },
     {
+        "id": "quân đội Nhật Bản tiến vào Đông Dương",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "30 tháng 8 1940",
         "Sự kiện": "quân đội Nhật Bản tiến vào Đông Dương"
     },
     {
+        "id": "chính phủ Pháp chấp nhận mọi yêu sách, chấp nhận việc chiếm đóng cùng giao quyền điều hành những căn cứ quân sự cho quân đội Nhật",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "25 tháng 9 1940",
         "Sự kiện": "chính phủ Pháp chấp nhận mọi yêu sách, chấp nhận việc chiếm đóng cùng giao quyền điều hành những căn cứ quân sự cho quân đội Nhật"
     },
     {
+        "id": "Việt Nam Tuyên truyền Giải phóng quân được thành lập",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "22 tháng 12 1944",
         "Sự kiện": "Việt Nam Tuyên truyền Giải phóng quân được thành lập"
     },
     {
+        "id": "Nhật đảo chính thực dân Pháp",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "tháng 3 1945",
         "Sự kiện": "Nhật đảo chính thực dân Pháp"
     },
     {
+        "id": "thành lập Đế quốc Việt Nam, phụ thuộc Đế quốc Nhật Bản",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "11 tháng 3 1945",
         "Sự kiện": "thành lập Đế quốc Việt Nam, phụ thuộc Đế quốc Nhật Bản"
@@ -2771,6 +2829,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Việt Nam",
+        "id": "cách mạng tháng Tám",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Tsuchihashi Yuitsu",
@@ -2795,21 +2854,25 @@
         "Thời gian": "14 tháng 8 - 30 tháng 8 1945"
     },
     {
+        "id": "Đế quốc Việt Nam sụp đổ",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "23 tháng 8 1945",
         "Sự kiện": "Đế quốc Việt Nam sụp đổ"
     },
     {
+        "id": "Bảo Đại thoái vị",
         "Thời kỳ (Triều đại)": "Pháp thuộc",
         "Thời gian": "30 tháng 8 1945",
         "Sự kiện": "Bảo Đại thoái vị"
     },
     {
+        "id": "Hồ Chí Minh tuyên bố độc lập, thành lập nước Việt Nam Dân chủ Cộng hòa",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "2 tháng 9 1945",
         "Sự kiện": "Hồ Chí Minh tuyên bố độc lập, thành lập nước Việt Nam Dân chủ Cộng hòa"
     },
     {
+        "id": "phát động phong trào Bình dân học vụ",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "8 tháng 9 1945",
         "Sự kiện": "phát động phong trào Bình dân học vụ"
@@ -2867,6 +2930,7 @@
             "[4]"
         ],
         "Địa điểm liên quan": "Đông Dương thuộc Pháp, chiến trường chính tại Bắc Kỳ",
+        "id": "quân Pháp nổ súng tại Sài Gòn, bắt đầu cuộc chiến tranh xâm lược Việt Nam lần 2",
         "Nhân vật liên quan (Chỉ huy)": [
             "Philippe Leclerc de Hauteclocque",
             "Jean-Étienne Valluy",
@@ -2958,6 +3022,7 @@
             "Nam Bộ"
         ],
         "Địa điểm liên quan": "Nam Bộ, Nam Trung Bộ, Tây Nguyên, Nam Việt Nam.",
+        "id": "Trần Văn Giàu kêu gọi Nam Bộ kháng chiến",
         "Nhân vật liên quan (Chỉ huy)": [
             "Philippe Leclerc de Hauteclocque",
             "",
@@ -2992,16 +3057,19 @@
         "Sự kiện": "Tổng tuyển cử bầu Quốc hội đầu tiên",
         "Triều đại liên quan (Tham chiến)": [],
         "Địa điểm liên quan": "",
+        "id": "Tổng tuyển cử bầu Quốc hội đầu tiên",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": "6 tháng 1 1946"
     },
     {
+        "id": "Pháp lập nên Cộng hòa Tự trị Nam Kỳ thuộc Liên hiệp Pháp, thủ đô Sài Gòn",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "26 tháng 3 1946",
         "Sự kiện": "Pháp lập nên Cộng hòa Tự trị Nam Kỳ thuộc Liên hiệp Pháp, thủ đô Sài Gòn"
     },
     {
+        "id": "Tạm ước Việt - Pháp",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "14 tháng 9 1946",
         "Sự kiện": "Tạm ước Việt - Pháp"
@@ -3019,6 +3087,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "Việt Nam Dân chủ Cộng hòa",
+        "id": "Hồ Chí Minh kêu gọi Toàn quốc kháng chiến",
         "Nhân vật liên quan (Chỉ huy)": [
             "Georges Thierry d'Argenlieu",
             "Jean Étienne Valluy",
@@ -3049,6 +3118,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Bắc Việt Nam",
+        "id": "Chiến dịch Việt Bắc Thu - Đông 1947",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Jean-Etienne Valluy",
@@ -3067,11 +3137,13 @@
         "Thời gian": "7 tháng 10 - 22 tháng 12 1947"
     },
     {
+        "id": "Pháp lập nên Quốc gia Việt Nam, quốc trưởng Bảo Đại, thủ đô Sài Gòn",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "14 tháng 6 1949",
         "Sự kiện": "Pháp lập nên Quốc gia Việt Nam, quốc trưởng Bảo Đại, thủ đô Sài Gòn"
     },
     {
+        "id": "Mỹ bắt đầu can thiệp quân sự vào Việt Nam",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "8 tháng 5 1950",
         "Sự kiện": "Mỹ bắt đầu can thiệp quân sự vào Việt Nam"
@@ -3096,6 +3168,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "Cao Bằng, Lạng Sơn",
+        "id": "Chiến dịch Biên giới",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Marcel Maurice Carpentier",
@@ -3157,6 +3230,7 @@
             "Đông Đức"
         ],
         "Địa điểm liên quan": "21°23-13-B 103°0-56-Đ﻿ \/ ﻿21,38694°B 103,01556°Đ﻿ \/ 21.38694; 103.01556 Thung lũng Mường Thanh, Điện Biên Phủ.",
+        "id": "Chiến dịch Điện Biên Phủ",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Christian de Castries",
@@ -3241,16 +3315,19 @@
         "Sự kiện": "Hiệp định Genève, Pháp rút quân khỏi Việt Nam và đất nước bị chia cắt",
         "Triều đại liên quan (Tham chiến)": [],
         "Địa điểm liên quan": "",
+        "id": "Hiệp định Genève, Pháp rút quân khỏi Việt Nam và đất nước bị chia cắt",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": "20 tháng 7 1954"
     },
     {
+        "id": "Giải phóng Thủ đô",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "10 tháng 10 1954",
         "Sự kiện": "Giải phóng Thủ đô"
     },
     {
+        "id": "Ngô Đình Diệm phế truất Bảo Đại, lên làm Tổng thống, lập nên Việt Nam Cộng hòa",
         "Thể loại liên quan": [
             "Chính trị Việt Nam Cộng hòa",
             "Việt Nam Cộng hòa",
@@ -3267,6 +3344,7 @@
         "Sự kiện": "Ngô Đình Diệm phế truất Bảo Đại, lên làm Tổng thống, lập nên Việt Nam Cộng hòa"
     },
     {
+        "id": "Phong trào Đồng khởi",
         "Thể loại liên quan": [
             "Nam Bộ",
             "Phong trào đấu tranh trong Chiến tranh Việt Nam",
@@ -3280,11 +3358,13 @@
         "Sự kiện": "Phong trào Đồng khởi"
     },
     {
+        "id": "thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "20 tháng 12 1960",
         "Sự kiện": "thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
     },
     {
+        "id": "thành lập Quân Giải phóng miền Nam Việt Nam",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "15 tháng 12 1961",
         "Sự kiện": "thành lập Quân Giải phóng miền Nam Việt Nam"
@@ -3307,6 +3387,7 @@
             "Mặt trận Dân tộc Giải phóng Miền Nam"
         ],
         "Địa điểm liên quan": "Toàn miền Nam, Việt Nam",
+        "id": "chiến dịch Chiến tranh đặc biệt",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lyndon B. Johnson",
@@ -3319,6 +3400,7 @@
         "Thời gian": "1961-1965"
     },
     {
+        "id": "đảo chính lật đổ chính quyền Ngô Đình Diệm",
         "Thể loại liên quan": [
             "Nguyên thủ Việt Nam Cộng hòa",
             "Chính trị Việt Nam Cộng hòa",
@@ -3348,6 +3430,7 @@
         "Sự kiện": "đảo chính lật đổ chính quyền Ngô Đình Diệm"
     },
     {
+        "id": "Mỹ bắt đầu đưa quân vào tham chiến tại miền Nam Việt Nam",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "8 tháng 3 1965",
         "Sự kiện": "Mỹ bắt đầu đưa quân vào tham chiến tại miền Nam Việt Nam"
@@ -3408,6 +3491,7 @@
             "Cuba"
         ],
         "Địa điểm liên quan": "Toàn miền Nam Việt Nam Miền Bắc Việt Nam (trên không và trên biển)",
+        "id": "chiến dịch Chiến tranh cục bộ",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lyndon B. Johnson",
@@ -3469,6 +3553,7 @@
             "Cộng hòa Dân chủ Nhân dân Triều Tiên"
         ],
         "Địa điểm liên quan": "Việt Nam",
+        "id": "chiến dịch Việt Nam hóa chiến tranh",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Creighton Abrams",
@@ -3557,11 +3642,13 @@
         "Thời gian": "1968-1973"
     },
     {
+        "id": "thành lập Cộng hòa Miền Nam Việt Nam, thủ đô Tây Ninh",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "8 tháng 6 1969",
         "Sự kiện": "thành lập Cộng hòa Miền Nam Việt Nam, thủ đô Tây Ninh"
     },
     {
+        "id": "Chủ tịch Hồ Chí Minh từ trần",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "2 tháng 9 1969",
         "Sự kiện": "Chủ tịch Hồ Chí Minh từ trần"
@@ -3589,6 +3676,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam: Hà Nội, Hải Phòng, Thái Nguyên, Lạng Sơn, Bắc Giang.",
+        "id": "Chiến dịch Điện Biên Phủ trên không",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "John Dale Ryan",
@@ -3650,6 +3738,7 @@
         "Sự kiện": "Hiệp định Paris, Mỹ rút quân khỏi Việt Nam",
         "Triều đại liên quan (Tham chiến)": [],
         "Địa điểm liên quan": "",
+        "id": "Hiệp định Paris, Mỹ rút quân khỏi Việt Nam",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": "27 tháng 1 1973"
@@ -3674,6 +3763,7 @@
             "Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Sài Gòn - Gia Định và Đồng bằng sông Cửu Long",
+        "id": "Chiến dịch Hồ Chí Minh",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Võ Nguyên Giáp",
@@ -3727,16 +3817,19 @@
         "Thời gian": "26 tháng 4 - 2 tháng 5 1975"
     },
     {
+        "id": "chính phủ Việt Nam Cộng hòa đầu hàng vô điều kiện Cộng hòa Miền Nam Việt Nam",
         "Thời kỳ (Triều đại)": "Việt Nam Dân chủ Cộng hòa",
         "Thời gian": "30 tháng 4 1975",
         "Sự kiện": "chính phủ Việt Nam Cộng hòa đầu hàng vô điều kiện Cộng hòa Miền Nam Việt Nam"
     },
     {
+        "id": "đổi tên nước thành Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "2 tháng 7 1976",
-        "Sự kiện": "thống nhất đất nước, đổi tên nước thành Cộng hòa xã hội chủ nghĩa Việt Nam"
+        "Sự kiện": "đổi tên nước thành Cộng hòa xã hội chủ nghĩa Việt Nam"
     },
     {
+        "id": "gia nhập Liên Hợp Quốc",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "20 tháng 9 1977",
         "Sự kiện": "gia nhập Liên Hợp Quốc"
@@ -3831,6 +3924,7 @@
             "[12]"
         ],
         "Địa điểm liên quan": "Campuchia, biên giới Tây Nam Việt Nam, biên giới phía đông Thái Lan",
+        "id": "chiến tranh biên giới Tây Nam",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Duẩn",
             "Trường Chinh",
@@ -3874,6 +3968,7 @@
             "Liên Xô"
         ],
         "Địa điểm liên quan": "Toàn tuyến biên giới phía bắc của Việt Nam",
+        "id": "chiến tranh biên giới phía Bắc",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hoa Quốc Phong",
@@ -3900,6 +3995,7 @@
         "Thời gian": "1979"
     },
     {
+        "id": "Đổi Mới",
         "Thể loại liên quan": [
             "Lịch sử kinh tế Việt Nam",
             "Lịch sử Việt Nam thời kỳ từ 1976",
@@ -3914,31 +4010,37 @@
         "Sự kiện": "Đổi Mới"
     },
     {
+        "id": "bình thường hóa quan hệ với Trung Quốc",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "7 tháng 11 1991",
         "Sự kiện": "bình thường hóa quan hệ với Trung Quốc"
     },
     {
+        "id": "bình thường hóa quan hệ với Mỹ",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "11 tháng 7 1995",
         "Sự kiện": "bình thường hóa quan hệ với Mỹ"
     },
     {
+        "id": "gia nhập ASEAN",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "28 tháng 7 1995",
         "Sự kiện": "gia nhập ASEAN"
     },
     {
+        "id": "gia nhập APEC",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "14 tháng 11 1998",
         "Sự kiện": "gia nhập APEC"
     },
     {
+        "id": "gia nhập WTO",
         "Thời kỳ (Triều đại)": "Cộng hòa xã hội chủ nghĩa Việt Nam",
         "Thời gian": "11 tháng 1 2007",
         "Sự kiện": "gia nhập WTO"
     },
     {
+        "id": "Đại dịch COVID-19",
         "Thể loại liên quan": [
             "Đại dịch COVID-19 tại Việt Nam",
             "Đại dịch COVID-19 tại châu Á",
@@ -3962,6 +4064,7 @@
             "Nhà Tống"
         ],
         "Địa điểm liên quan": "Khâm Châu, Liêm Châu, Ung Châu thuộc Trung Quốc",
+        "id": "Chiến dịch đánh Tống 1075 - 1076",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lý Thường Kiệt",
             "Lưu Kỷ",
@@ -4001,6 +4104,7 @@
             "Đại Thanh"
         ],
         "Địa điểm liên quan": "Thăng Long, Đại Việt",
+        "id": "Trận Thăng Long",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Huệ",
             "Nguyễn Tăng Long",
@@ -4022,6 +4126,7 @@
             "Nhà Nguyên"
         ],
         "Địa điểm liên quan": "Chương Dương, Hà Nội 20°52-17-B 105°51-52-Đ﻿ \/ ﻿20,87147°B 105,864399°Đ﻿ \/ 20.871470; 105.864399",
+        "id": "Trận Chương Dương độ (1285)",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Quốc Tuấn",
             "Trần Quang Khải",
@@ -4050,6 +4155,7 @@
             "Đại Minh"
         ],
         "Địa điểm liên quan": "Tốt Động và Chúc Động (huyện Chương Mỹ, Hà Nội ngày nay) 20°52-B 105°40-Đ﻿ \/ ﻿20,867°B 105,667°Đ﻿ \/ 20.867; 105.667",
+        "id": "Trận Tốt Động - Chúc Động",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Lợi",
             "Lý Triện",
@@ -4085,6 +4191,7 @@
             "Đế quốc Minh"
         ],
         "Địa điểm liên quan": "Chi Lăng, Xương Giang",
+        "id": "Chiến dịch Chi Lăng - Xương Giang",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Lợi",
             "Lê Sát",
@@ -4140,6 +4247,7 @@
             "[1]"
         ],
         "Địa điểm liên quan": "Đàng Trong Đàng Ngoài",
+        "id": "Trịnh - Nguyễn phân tranh",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trịnh Tráng",
             "Trịnh Tạc",
@@ -4192,6 +4300,7 @@
             "Công ty Đông Ấn Hà Lan"
         ],
         "Địa điểm liên quan": "Cảng Eo, Thuận Hóa, Đàng Trong",
+        "id": "Trận cảng Eo 1643",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Phúc Lan",
             "Nguyễn Phúc Tần",
@@ -4219,6 +4328,7 @@
             "Nhà Mạc"
         ],
         "Địa điểm liên quan": "Cao Bằng, miền Bắc Việt Nam",
+        "id": "Trận Cao Bằng 1677",
         "Nhân vật liên quan (Chỉ huy)": [
             "Đinh Văn Tả",
             "Mạc Kính Vũ"
@@ -4237,6 +4347,7 @@
             "Tây Sơn"
         ],
         "Địa điểm liên quan": "Quảng Nam, Việt Nam",
+        "id": "Trận Cẩm Sa",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trịnh Sâm",
             "Hoàng Ngũ Phúc",
@@ -4263,6 +4374,7 @@
             "Chúa Trịnh"
         ],
         "Địa điểm liên quan": "Quảng Bình, Quảng Trị, Thừa Thiên-Huế, Việt Nam",
+        "id": "Chiến dịch Phú Xuân 1786",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Huệ",
             "Nguyễn Lữ",
@@ -4291,6 +4403,7 @@
             "Chúa Trịnh"
         ],
         "Địa điểm liên quan": "Đàng Ngoài",
+        "id": "Chiến dịch Thăng Long - 1786",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Huệ",
             "Nguyễn Hữu Chỉnh",
@@ -4329,6 +4442,7 @@
             "Nhà Lê Trung Hưng"
         ],
         "Địa điểm liên quan": "Miền Bắc Đại Việt",
+        "id": "Trận Ngọc Hồi - Đống Đa",
         "Nhân vật liên quan (Chỉ huy)": [
             "Quang Trung",
             "Phan Văn Lân",
@@ -4387,6 +4501,7 @@
             "Quân Tây Sơn"
         ],
         "Địa điểm liên quan": "Đầm Thị Nại, Quy Nhơn, Bình Định",
+        "id": "Thủy chiến Thị Nại",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Ánh",
             "Lê Văn Duyệt",
@@ -4420,6 +4535,7 @@
             "Quân đội chúa Nguyễn"
         ],
         "Địa điểm liên quan": "Quảng Bình, Việt Nam",
+        "id": "Trận Trấn Ninh (1802)",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Quang Toản",
             "Nguyễn Quang Thùy",
@@ -4450,6 +4566,7 @@
             "Tây Ban Nha"
         ],
         "Địa điểm liên quan": "Nam Kỳ phần phía nam lãnh thổ Đại Nam",
+        "id": "Loạt trận mở đầu của Pháp xâm lược Đại Nam",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Tri Phương",
             "Phạm Thế Hiển",
@@ -4486,6 +4603,7 @@
             "Tây Ban Nha"
         ],
         "Địa điểm liên quan": "Đà Nẵng",
+        "id": "Liên quân tấn công Đà Nẵng lần thứ nhất",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Tri Phương",
             "Phạm Thế Hiển",
@@ -4520,6 +4638,7 @@
             "Tây Ban Nha"
         ],
         "Địa điểm liên quan": "Gia Định, Nam Kỳ",
+        "id": "Trận thành Gia Định",
         "Nhân vật liên quan (Chỉ huy)": [
             "Võ Duy Ninh",
             "Charles Rigault de Genouilly"
@@ -4542,6 +4661,7 @@
             "Đệ nhị Đế chế Pháp"
         ],
         "Địa điểm liên quan": "Gia Định, Nam Kỳ, Đại Nam",
+        "id": "Trận Đại đồn Chí Hòa",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Tri Phương",
             "Leonard Charner"
@@ -4564,6 +4684,7 @@
             "Đế chế Pháp thứ hai"
         ],
         "Địa điểm liên quan": "Định Tường, Nam Kỳ",
+        "id": "Pháp đánh chiếm Định Tường",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Công Nhàn",
             "Huỳnh Mẫn Đạt"
@@ -4585,6 +4706,7 @@
             "Tây Ban Nha"
         ],
         "Địa điểm liên quan": "Đà Nẵng",
+        "id": "Liên quân tấn công Đà Nẵng lần thứ hai",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Tri Phương",
             "Phạm Thế Hiển",
@@ -4610,6 +4732,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Bắc Kỳ, Đại Nam",
+        "id": "Biến cố Bắc Kỳ 1873",
         "Nhân vật liên quan (Chỉ huy)": [
             "Tự Đức",
             "",
@@ -4631,6 +4754,7 @@
             "Nhà Nguyễn"
         ],
         "Địa điểm liên quan": "Hà Nội, Đại Nam",
+        "id": "Trận thành Hà Nội lần thứ nhất",
         "Nhân vật liên quan (Chỉ huy)": [
             "Francis Garnier",
             "Jean Dupuis",
@@ -4651,6 +4775,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Cầu Giấy, Hà Nội, Đại Nam 21°1-49-B 105°48-4-Đ﻿ \/ ﻿21,03028°B 105,80111°Đ﻿ \/ 21.03028; 105.80111",
+        "id": "Trận Cầu Giấy",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lưu Vĩnh Phúc",
             "",
@@ -4687,6 +4812,7 @@
             "Quân Cờ Đen"
         ],
         "Địa điểm liên quan": "Bắc Kỳ, Đại Nam",
+        "id": "Chiến dịch Bắc Kỳ Campagne du Tonkin",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Pháp chiến thắng",
         "Thời gian": "1883-1886"
@@ -4706,6 +4832,7 @@
             "Nhà Nguyễn"
         ],
         "Địa điểm liên quan": "Hà Nội, Đại Nam",
+        "id": "Trận thành Hà Nội lần thứ hai",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Henri Rivière",
@@ -4731,6 +4858,7 @@
             "Quân Cờ Đen"
         ],
         "Địa điểm liên quan": "Bắc Kỳ, Việt Nam",
+        "id": "Trận Nam Định",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Henri Rivière",
@@ -4760,6 +4888,7 @@
             "Quân cờ đen"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam (Bắc Kỳ)",
+        "id": "Trận Gia Quất-Gia Lâm",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Berthe de Villers",
@@ -4786,6 +4915,7 @@
             "Quân Cờ Đen"
         ],
         "Địa điểm liên quan": "Cầu Giấy, ngoại vi Hà Nội",
+        "id": "Trận Cầu Giấy",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Henri Rivière",
@@ -4820,6 +4950,7 @@
             "Nhà Nguyễn"
         ],
         "Địa điểm liên quan": "Gần Hà Nội, miền bắc Việt Nam",
+        "id": "Trận Phủ Hoài",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Alexandre-Eugène Bouët",
@@ -4848,6 +4979,7 @@
             "triều Nguyễn"
         ],
         "Địa điểm liên quan": "gần Huế, miền trung Việt Nam",
+        "id": "Trận cửa Thuận An",
         "Nhân vật liên quan (Chỉ huy)": [
             "Amédée Courbet"
         ],
@@ -4873,6 +5005,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Sơn Tây, Đại Nam",
+        "id": "Pháp đánh thành Sơn Tây",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lưu Vĩnh Phúc",
@@ -4900,6 +5033,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Bắc Ninh, Việt Nam",
+        "id": "Pháp đánh thành Bắc Ninh",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "",
@@ -4933,6 +5067,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Hưng Hóa, Đại Nam",
+        "id": "Trận Hưng Hóa",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "",
@@ -4967,6 +5102,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Tuyên Quang, Việt Nam",
+        "id": "Trận Tuyên Quang",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "",
@@ -4994,6 +5130,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Bắc Lệ, Bắc Kỳ (nay thuộc xã Tân Thành, Hữu Lũng, Lạng Sơn, Việt Nam)",
+        "id": "Trận Bắc Lệ",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Thiện Thuật",
             "Tạ Hiện",
@@ -5024,6 +5161,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Lạng Sơn, Bắc Kỳ, Việt Nam",
+        "id": "Trận Lạng Sơn (1885)",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Phan Đỉnh Tân",
@@ -5048,6 +5186,7 @@
             "Pháp"
         ],
         "Địa điểm liên quan": "Huế, Việt Nam",
+        "id": "Trận Kinh thành Huế 1885",
         "Nhân vật liên quan (Chỉ huy)": [
             "Vua Hàm Nghi",
             "Tôn Thất Thuyết",
@@ -5058,6 +5197,107 @@
         ],
         "Kết quả ": "Quân đội Pháp chiến thắng",
         "Thời gian": "4 tháng 7 - 5 tháng 7 năm 1885"
+    },
+    {
+        "Mô tả": "",
+        "Thể loại liên quan": [
+            "Chiến tranh Đông Dương",
+            "Phi thực dân hóa",
+            "Chiến tranh Lạnh",
+            "Xung đột thập niên 1940",
+            "Xung đột thập niên 1950",
+            "Liên bang Đông Dương",
+            "Phong trào độc lập Việt Nam",
+            "Chiến tranh liên quan tới Việt Nam",
+            "Chiến tranh liên quan tới Pháp",
+            "Chiến tranh liên quan tới Trung Quốc",
+            "Chiến tranh liên quan tới Hoa Kỳ",
+            "Việt Nam thập niên 1940",
+            "Việt Nam thập niên 1950",
+            "Quan hệ Pháp - Việt Nam",
+            "Quan hệ Việt Nam - Trung Quốc",
+            "Quan hệ Liên Xô - Việt Nam",
+            "Chiến tranh bán đảo Đông Dương"
+        ],
+        "Sự kiện": "Chiến tranh Đông Dương",
+        "Triều đại liên quan (Tham chiến)": [
+            "Pháp",
+            "Liên bang Đông Dương",
+            "Bắc Kỳ",
+            "Trung Kỳ",
+            "Cộng hòa Tự trị Nam Kỳ",
+            "Quốc gia Việt Nam",
+            "Lào",
+            "Campuchia",
+            "Hoa Kỳ",
+            "[3]",
+            "Trung Hoa Dân Quốc",
+            "",
+            "Việt Nam Dân chủ Cộng hòa",
+            "",
+            "Việt Minh",
+            "",
+            "Lào Issara",
+            "",
+            "Pathet Lào",
+            "",
+            "Khmer Issarak",
+            "",
+            "Mặt trận Issarak Thống nhất",
+            "Liên Xô",
+            "Trung Quốc",
+            "Đông Đức",
+            "[4]"
+        ],
+        "Địa điểm liên quan": "Đông Dương thuộc Pháp, chiến trường chính tại Bắc Kỳ",
+        "id": "Chiến tranh Đông Dương",
+        "Nhân vật liên quan (Chỉ huy)": [
+            "Philippe Leclerc de Hauteclocque",
+            "Jean-Étienne Valluy",
+            "Roger Blaizot",
+            "Marcel-Maurice Carpentier",
+            "Jean de Lattre de Tassigny",
+            "Raoul Salan",
+            "Henri Navarre",
+            "",
+            "Bảo Đại",
+            "",
+            "Ngô Đình Diệm",
+            "",
+            "Nguyễn Văn Tâm",
+            "",
+            "Nguyễn Văn Hinh",
+            "",
+            "Harry S. Truman",
+            "",
+            "Dwight D. Eisenhower",
+            "",
+            "Hồ Chí Minh",
+            "",
+            "Võ Nguyên Giáp",
+            "",
+            "Nguyễn Chí Thanh",
+            "",
+            "Hoàng Văn Thái",
+            "",
+            "Văn Tiến Dũng",
+            "",
+            "Phạm Văn Đồng",
+            "",
+            "Trường Chinh",
+            "",
+            "Souphanouvong",
+            "",
+            "Kaysone Phomvihane",
+            "",
+            "Sơn Ngọc Minh",
+            "",
+            "Tou Samouth",
+            "",
+            "Trần Canh"
+        ],
+        "Kết quả ": "Việt Nam Dân chủ Cộng hòa chiến thắng. Việt Nam, Lào, Campuchia tách khỏi Liên hiệp Pháp, hoàn toàn độc lập. Pháp và Quốc gia Việt Nam tập kết về miền Nam. Việt Nam bị phân chia tạm thời tại Vĩ tuyến 17. Sau 2 năm Pháp rút khỏi Việt Nam. Hoa Kỳ đẩy mạnh việc can thiệp sâu hơn vào Đông Dương.[1][2]",
+        "Thời gian": "19 tháng 12 năm 1946 - 1 tháng 8 năm 1954 (7 năm, 7 tháng, 1 tuần và 6 ngày)"
     },
     {
         "Mô tả": "5 tiểu đoàn vệ quốc quân: 2.515 người +8.000 dân quân tự vệ[1] 30 lính Nhật (ở lại sau 2\/9)",
@@ -5077,6 +5317,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "Hà Nội, Việt Nam Dân chủ Cộng hòa",
+        "id": "Trận Hà Nội đông xuân 1946-47",
         "Nhân vật liên quan (Chỉ huy)": [
             "Jean Étienne Valluy",
             "Louis-Constant Morlière",
@@ -5107,6 +5348,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Bắc Việt Nam",
+        "id": "Chiến dịch Việt Bắc",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Jean-Etienne Valluy",
@@ -5137,6 +5379,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "Tuyến trung du Bắc Bộ từ Việt Trì tới Bắc Giang, Đông Bắc Việt Nam, Liên khu III",
+        "id": "Chiến dịch Trần Hưng Đạo",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "De Lattre",
@@ -5182,6 +5425,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Đường 18 đoạn từ Phả Lại đến Uông Bí, Mạo Khê",
+        "id": "Chiến dịch Hoàng Hoa Thám",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "De Lattre de Tassigny",
@@ -5214,6 +5458,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Hà Nam, Nam Định, Ninh Bình (Việt Nam)",
+        "id": "Chiến dịch Hà Nam Ninh (Chiến dịch Quang Trung)",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "De Lattre",
@@ -5255,6 +5500,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "Hòa Bình",
+        "id": "Chiến dịch Hòa Bình",
         "Nhân vật liên quan (Chỉ huy)": [
             "Jean de Lattre de Tassigny",
             "Raoul Salan",
@@ -5283,6 +5529,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "Tây Bắc Bộ",
+        "id": "Chiến dịch Tây Bắc",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Raoul Salan",
@@ -5311,6 +5558,7 @@
             "Pathet Lào"
         ],
         "Địa điểm liên quan": "Lào",
+        "id": "Chiến dịch Thượng Lào",
         "Nhân vật liên quan (Chỉ huy)": [
             "Raoul Salan",
             "",
@@ -5343,6 +5591,7 @@
             "Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "10°36-32-B 106°3-1-Đ﻿ \/ ﻿10,60889°B 106,05028°Đ﻿ \/ 10.60889; 106.05028 Ấp Bắc, Mỹ Tho, Miền nam Việt Nam UTM Grid XS 29-55[1]",
+        "id": "Trận Ấp Bắc",
         "Nhân vật liên quan (Chỉ huy)": [
             "Võ Văn Điều",
             "Đặng Minh Nhuận",
@@ -5373,6 +5622,7 @@
             "[2]"
         ],
         "Địa điểm liên quan": "13°35-B 107°43-Đ﻿ \/ ﻿13,583°B 107,717°Đ﻿ \/ 13.583; 107.717﻿ (Battle of la Drang) Rặng núi Chu Prông,[1], Việt Nam",
+        "id": "Trận Ia Đrăng",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Chu Huy Mân",
@@ -5419,13 +5669,12 @@
         "Sự kiện": "Trận Ba Gia",
         "Triều đại liên quan (Tham chiến)": [
             "",
-            "Bộ chỉ huy Viện trợ Quân sự Hoa Kỳ tại Việt Nam",
-            "",
             "Quân lực Việt Nam Cộng hòa",
             "",
             "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Ba Gia, Quảng Ngãi, miền Nam Việt Nam",
+        "id": "Trận Ba Gia",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Chánh Thi",
             "[1]",
@@ -5450,6 +5699,7 @@
             "Quân Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Thôn Vạn Tường, xã Bình Hải, huyện Bình Sơn, tỉnh Quảng Ngãi",
+        "id": "Trận Vạn Tường",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lewis W. Walt",
@@ -5484,6 +5734,7 @@
             "Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Bình Giã, miền Nam Việt Nam UTM Grid YS 50-78[1]",
+        "id": "Trận Bình Giã",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Trọng Tấn",
@@ -5517,6 +5768,7 @@
             "Quân lực Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Đồng Xoài, miền Nam Việt Nam UTM Grid YT 0764-7597[1]",
+        "id": "Trận Đồng Xoài",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Trọng Tấn",
             "Cao Văn Viên",
@@ -5543,6 +5795,7 @@
             "Mặt trận Dân tộc Giải phóng Miền Nam"
         ],
         "Địa điểm liên quan": "Tây Nguyên, Nam Việt Nam",
+        "id": "Chiến dịch Plei Me",
         "Nhân vật liên quan (Chỉ huy)": [
             "Việt Nam Cộng hòa",
             "Hoa Kỳ",
@@ -5574,13 +5827,10 @@
             "",
             "Hàn Quốc",
             "",
-            "Hoa Kỳ",
-            "",
-            "Việt Nam Cộng hòa",
-            "",
-            "Philippines"
+            "Hoa Kỳ"
         ],
         "Địa điểm liên quan": "Đức Cơ, Gia Lai, Việt Nam Cộng hoà",
+        "id": "Trận Đức Cơ",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Liên quân chiến thắng",
         "Thời gian": "9-10 tháng 8 năm 1966"
@@ -5602,6 +5852,7 @@
             "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Long Tân, Phước Tuy Việt Nam Cộng hòa",
+        "id": "Trận Long Tân",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Harry Smith",
@@ -5634,6 +5885,7 @@
             "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Đăk Tô, tỉnh Kon Tum, miền Nam Việt Nam",
+        "id": "Chiến dịch Đăk Tô - Tân Cảnh",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "William R. Peers",
@@ -5666,6 +5918,7 @@
             "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Suối Ông Thành, Chơn Thành, Bình Dương, miền Nam Việt Nam",
+        "id": "Trận Ông Thành",
         "Nhân vật liên quan (Chỉ huy)": [
             "-"
         ],
@@ -5699,6 +5952,7 @@
             "Pathet Lào"
         ],
         "Địa điểm liên quan": "Khe Sanh, Quảng Trị[1]",
+        "id": "Chiến dịch Đường 9 - Khe Sanh",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Đại tướng",
@@ -5743,6 +5997,7 @@
             "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "16°28-30,9-B 107°34-33,6-Đ﻿ \/ ﻿16,46667°B 107,56667°Đ﻿ \/ 16.46667; 107.56667﻿ (Battle of Huế) Huế, Việt Nam Cộng hòa",
+        "id": "Trận Huế",
         "Nhân vật liên quan (Chỉ huy)": [
             "Ngô Quang Trưởng",
             "Foster LaHue",
@@ -5773,6 +6028,7 @@
             "Quân Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "16°15-11-B 107°10-29-Đ﻿ \/ ﻿16,25306°B 107,17472°Đ﻿ \/ 16.25306; 107.17472 Tỉnh Thừa Thiên, Việt Nam",
+        "id": "Trận Đồi Thịt Băm",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Hai bên cùng tuyên bố chiến thắng, quân Mỹ sau đó rút đi, Quân Giải phóng miền Nam Việt Nam chiếm lại đồi.",
         "Thời gian": "10 tháng 5 - 20 tháng 5 năm 1969"
@@ -5800,6 +6056,7 @@
             "Pathet Lào"
         ],
         "Địa điểm liên quan": "Lào",
+        "id": "Chiến dịch Lam Sơn 719 \/ Chiến dịch đường 9 - Nam Lào",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "James W. Sutherland, Jr.",
@@ -5828,13 +6085,12 @@
             "",
             "Việt Nam Cộng hòa",
             "",
-            "Hoa Kỳ",
-            "",
             "Việt Nam Dân chủ Cộng hòa",
             "",
             "Pathet Lào"
         ],
         "Địa điểm liên quan": "16°38-4-B 106°25-41-Đ﻿ \/ ﻿16,63444°B 106,42806°Đ﻿ \/ 16.63444; 106.42806﻿ (Ban Dong) Bản Đông, huyện Tchepone, tỉnh Savannakhet, Lào",
+        "id": "Trận Bản Đông",
         "Nhân vật liên quan (Chỉ huy)": [
             "Hoàng Xuân Lãm",
             "Lê Trọng Tấn"
@@ -5859,6 +6115,7 @@
             "Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Cụm cứ điểm Đăk Tô - Tân Cảnh, tỉnh Kon Tum Nam Việt Nam",
+        "id": "Chiến dịch Đăk Tô",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lý Tòng Bá",
@@ -5894,6 +6151,7 @@
             "Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Thành cổ Quảng Trị",
+        "id": "Trận Thành cổ Quảng Trị",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Văn Tiến Dũng",
@@ -5929,6 +6187,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam: Hà Nội, Hải Phòng, Thái Nguyên, Lạng Sơn, Bắc Giang.",
+        "id": "Chiến dịch Linebacker II",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "John Dale Ryan",
@@ -5992,6 +6251,7 @@
             "Mặt trận Dân tộc Giải phóng Miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Miền Nam Việt Nam",
+        "id": "Chiến dịch Xuân - Hè 1972",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Creighton Abrams",
@@ -6051,6 +6311,7 @@
             "Hạm đội 7"
         ],
         "Địa điểm liên quan": "Tỉnh Quảng Trị, Việt Nam",
+        "id": "Chuỗi các trận đánh ở Quảng Trị năm 1972",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Trọng Tấn",
@@ -6092,6 +6353,7 @@
             "Quân Giải phóng miền Nam"
         ],
         "Địa điểm liên quan": "Kontum, Việt Nam",
+        "id": "Chiến dịch Bắc Tây Nguyên",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Creighton Abrams",
@@ -6131,6 +6393,7 @@
             "Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Đông Bắc miền Đông Nam Bộ",
+        "id": "Chiến dịch Nguyễn Huệ",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hoàng Văn Thái",
@@ -6188,6 +6451,7 @@
             "Quân lực Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "11°51-3-B 106°59-48-Đ﻿ \/ ﻿11,85083°B 106,99667°Đ﻿ \/ 11.85083; 106.99667 Phước Long, Nam Việt Nam",
+        "id": "Chiến dịch Đường 14 - Phước Long",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hoàng Cầm",
@@ -6219,6 +6483,7 @@
             "Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Tây Nguyên (bao gồm các tỉnh Đắk Lắk, Phú Bổn, Gia Lai, Kon Tum, Quảng Đức), Việt Nam",
+        "id": "Chiến dịch Tây Nguyên",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hoàng Minh Thảo",
@@ -6256,6 +6521,7 @@
             "Quân đội Hoa Kỳ"
         ],
         "Địa điểm liên quan": "Miền Nam Việt Nam",
+        "id": "Tổng tấn công và nổi dậy mùa Xuân 1975",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Duẩn",
@@ -6396,6 +6662,7 @@
             "[12]"
         ],
         "Địa điểm liên quan": "Campuchia, biên giới Tây Nam Việt Nam, biên giới phía đông Thái Lan",
+        "id": "Chiến tranh biên giới Việt Nam-Campuchia",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Duẩn",
             "Trường Chinh",
@@ -6439,6 +6706,7 @@
             "Hải quân Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Đá Gạc Ma, đá Cô Lin, đá Len Đao thuộc quần đảo Trường Sa",
+        "id": "Xung đột giành quyền kiểm soát tại Quần đảo Trường Sa 1988",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "",
@@ -6533,6 +6801,7 @@
             "Viện trợ nước ngoài trong Chiến tranh Việt Nam"
         ],
         "Địa điểm liên quan": "Việt Nam, Campuchia, Lào, Biển Đông, Vịnh Thái Lan",
+        "id": "Chiến tranh Việt Nam",
         "Nhân vật liên quan (Chỉ huy)": [
             "Những nhà lãnh đạo trong Chiến tranh Việt Nam",
             "Những nhà lãnh đạo trong Chiến tranh Việt Nam"
@@ -6555,6 +6824,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Vương quốc Chiêm Thành",
+        "id": "Chiến tranh Việt-Chiêm 1044",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lý Thái Tông",
             "Sạ Đẩu",
@@ -6577,6 +6847,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "vùng Quảng Nam, Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+        "id": "Chiến tranh Việt-Chiêm 982",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Hoàn",
             "Bê Mi Thuế",
@@ -6600,6 +6871,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Vương quốc Chiêm Thành",
+        "id": "Chiến tranh Việt-Chiêm 1069",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lý Thánh Tông",
             "Lý Thường Kiệt",
@@ -6624,6 +6896,7 @@
             "Đại Việt"
         ],
         "Địa điểm liên quan": "Đồng bằng sông Hồng, Trung Bộ, Lào, Vịnh Bắc Bộ",
+        "id": "Chiến tranh Việt-Chiêm (1367-1396)",
         "Nhân vật liên quan (Chỉ huy)": [
             "Chế Bồng Nga",
             "-",
@@ -6652,6 +6925,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+        "id": "Chiến tranh Việt-Chiêm 1446",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Thị Anh",
             "Lê Thụ",
@@ -6677,6 +6951,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+        "id": "Chiến tranh Việt-Chiêm 1611",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Hoàng",
             "Văn Phong",
@@ -6698,6 +6973,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Thành Đồ Bàn (xã Nhơn Hậu, Thị xã An Nhơn, tỉnh Bình Định ngày nay)",
+        "id": "Trận Đồ Bàn",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Duệ Tông",
             "-",
@@ -6801,6 +7077,7 @@
             "[12]"
         ],
         "Địa điểm liên quan": "Campuchia, biên giới Tây Nam Việt Nam, biên giới phía đông Thái Lan",
+        "id": "Chiến tranh biên giới Việt Nam-Campuchia",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Duẩn",
             "Trường Chinh",
@@ -6844,6 +7121,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Bạch Hạc, Vĩnh Phúc, Bắc Việt Nam",
+        "id": "Trận Bình Lệ Nguyên (1258)",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Trần Thái Tông",
@@ -6883,6 +7161,7 @@
             "Trung Quốc"
         ],
         "Địa điểm liên quan": "Campuchia",
+        "id": "Nội chiến Campuchia",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lon Nol",
@@ -6931,6 +7210,7 @@
             "Nam Việt"
         ],
         "Địa điểm liên quan": "Lưỡng Quảng và miền Bắc Việt Nam",
+        "id": "Chiến tranh Hán-Nam Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lộ Bác Đức",
             "Dương Bộc",
@@ -6957,6 +7237,7 @@
             "Nhà Đông Hán"
         ],
         "Địa điểm liên quan": "Giao Chỉ, nay là miền Bắc Việt Nam",
+        "id": "Chiến tranh Hán-Việt 42-43",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trưng Trắc",
             "-",
@@ -6994,6 +7275,7 @@
             "Nhà Minh"
         ],
         "Địa điểm liên quan": "Việt Nam, Quảng Đông",
+        "id": "Chiến tranh Minh-Hậu Trần 1407-1414",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Giản Định",
             "-",
@@ -7065,6 +7347,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Đại Việt",
+        "id": "Kháng chiến chống Mông-Nguyên lần thứ nhất",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Thái Tông",
             "Trần Thánh Tông",
@@ -7103,6 +7386,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Bắc Bộ và Bắc Trung Bộ Việt Nam",
+        "id": "Chiến tranh Nguyên Mông - Đại Việt lần 2",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Thánh Tông",
             "Trần Nhân Tông",
@@ -7170,6 +7454,7 @@
             "Đế quốc Mông Cổ"
         ],
         "Địa điểm liên quan": "Bắc Việt Nam",
+        "id": "Chiến tranh Nguyên Mông - Đại Việt lần thứ III",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trần Thánh Tông",
             "Trần Nhân Tông",
@@ -7235,6 +7520,7 @@
             "Thái Lan"
         ],
         "Địa điểm liên quan": "Đông Dương thuộc Pháp",
+        "id": "Chiến tranh Pháp-Thái",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Jean Decoux",
@@ -7259,6 +7545,7 @@
             "Nhà Tần"
         ],
         "Địa điểm liên quan": "Hoa Nam và miền Bắc Việt Nam (tranh chấp)",
+        "id": "Chiến tranh Tần-Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Dịch Hu Tống",
             "Thục Phán",
@@ -7285,6 +7572,7 @@
             "Tống"
         ],
         "Địa điểm liên quan": "miền Bắc Việt Nam",
+        "id": "Chiến tranh Tống - Việt lần 1",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Hoàn",
             "Phạm Cự Lạng",
@@ -7321,6 +7609,7 @@
             "Triều Rattanakosin"
         ],
         "Địa điểm liên quan": "Đại Nam",
+        "id": "Chiến tranh Việt - Xiêm (1833-1834)",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trương Minh Giảng",
             "Nguyễn Xuân",
@@ -7358,6 +7647,7 @@
             "Liên bang Đông Dương"
         ],
         "Địa điểm liên quan": "Lào",
+        "id": "Chiến tranh Xiêm-Pháp",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Chulalongkorn",
@@ -7399,6 +7689,7 @@
             "Triều Nguyễn"
         ],
         "Địa điểm liên quan": "Sài Gòn, Việt Nam",
+        "id": "Cuộc nổi dậy Lê Văn Khôi",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Văn Khôi",
             "Thái Công Triều",
@@ -7439,6 +7730,7 @@
             "Liên bang Đông Dương"
         ],
         "Địa điểm liên quan": "Liên bang Đông Dương",
+        "id": "Chiến dịch Đông Dương (1940)",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Nakamura Aketo",
@@ -7475,6 +7767,7 @@
             "Hoa Kỳ"
         ],
         "Địa điểm liên quan": "Đông Dương thuộc Pháp",
+        "id": "Nhật đảo chính Pháp",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Tsuchihashi Yuitsu",
@@ -7512,6 +7805,7 @@
             "Liên bang Đông Dương"
         ],
         "Địa điểm liên quan": "Liên bang Đông Dương (Nay là Việt Nam, Lào)",
+        "id": "Khởi nghĩa Giàng Pả Chay",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": ""
@@ -7537,6 +7831,7 @@
             "Quân đội Pháp tại Đông Dương"
         ],
         "Địa điểm liên quan": "Bắc Kỳ & Trung Kỳ",
+        "id": "Khởi nghĩa Yên Bái",
         "Nhân vật liên quan (Chỉ huy)": [
             "Nguyễn Thái Học",
             "[1]",
@@ -7574,6 +7869,7 @@
             "Việt Nam"
         ],
         "Địa điểm liên quan": "Biên giới Lào - Thái Lan Huyện Chat Trakan, Tỉnh Phitsanulok Xaignabouli",
+        "id": "Chiến tranh biên giới Lào-Thái Lan",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Chavalit Yongchaiyudh",
@@ -7644,6 +7940,7 @@
             "Trung Quốc"
         ],
         "Địa điểm liên quan": "Vương quốc Lào",
+        "id": "Nội chiến Lào",
         "Nhân vật liên quan (Chỉ huy)": [
             "Souvanna Phouma",
             "Vàng Pao",
@@ -7680,6 +7977,7 @@
             "Đế quốc Majapahit"
         ],
         "Địa điểm liên quan": "Java, Majapahit",
+        "id": "Mông Cổ xâm lược Java",
         "Nhân vật liên quan (Chỉ huy)": [
             "Hốt Tất Liệt",
             "Jayakatwang",
@@ -7713,6 +8011,7 @@
             "Chiêm Thành"
         ],
         "Địa điểm liên quan": "Đại Việt",
+        "id": "Chiến tranh Mông Nguyên -Đại Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "Mông Ca",
             "Ngột Lương Hợp Thai",
@@ -7771,6 +8070,7 @@
             "Quân Cờ Đen"
         ],
         "Địa điểm liên quan": "Đông Nam Trung Quốc, Đài Loan, miền Bắc Việt Nam",
+        "id": "Chiến tranh Pháp-Thanh",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Amédée Courbet",
@@ -7849,6 +8149,7 @@
             "Nepal"
         ],
         "Địa điểm liên quan": "Tứ Xuyên, Tân Cương, Tây Tạng, Đài Loan, Nepal, Myanma, Việt Nam.",
+        "id": "Thập toàn võ công",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Càn Long",
@@ -7884,6 +8185,7 @@
             "Quân đội Trung Hoa Dân Quốc"
         ],
         "Địa điểm liên quan": "đảo Bạch Long Vỹ, Việt Nam",
+        "id": "Trận đảo Bạch Long Vỹ 1955",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Giải phóng quân Trung Quốc chiến thắng.",
         "Thời gian": "tháng 7 năm 1955"
@@ -7907,6 +8209,7 @@
             "Quân cờ đen"
         ],
         "Địa điểm liên quan": "Miền Bắc Việt Nam (Bắc Kỳ)",
+        "id": "Trận Gia Quất-Gia Lâm",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Berthe de Villers",
@@ -7944,6 +8247,7 @@
             "Quân đội Hàn Quốc"
         ],
         "Địa điểm liên quan": "Trà Bình, Trà Bồng, Quảng Ngãi, Việt Nam Cộng hòa",
+        "id": "Trận Quang Thạnh (1967)",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hà Văn Trí",
@@ -7981,6 +8285,7 @@
             "[1]"
         ],
         "Địa điểm liên quan": "Đàng Trong Đàng Ngoài",
+        "id": "Trịnh - Nguyễn phân tranh",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trịnh Tráng",
             "Trịnh Tạc",
@@ -8035,6 +8340,7 @@
             "Nhà Chakri"
         ],
         "Địa điểm liên quan": "Nam Kỳ của Đại Nam và Cao Miên",
+        "id": "Chiến tranh Việt - Xiêm (1841-1845)",
         "Nhân vật liên quan (Chỉ huy)": [
             "Trương Minh Giảng",
             "Lê Văn Đức",
@@ -8082,6 +8388,7 @@
             "Trung Quốc"
         ],
         "Địa điểm liên quan": "Biên giới Thái Lan-Campuchia, Vịnh Thái Lan",
+        "id": "Xung đột biên giới Thái Lan - Việt Nam",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Nhiều căn cứ du kích và các trại tị nạn dọc theo biên giới Campuchia-Thái Lan bị phá hủy và làm tự phát những hành động thù địch công khai giữa quân đội Việt Nam và Thái Lan.",
         "Thời gian": "1979 - 1989"
@@ -8104,6 +8411,7 @@
             "Kampuchea Dân chủ"
         ],
         "Địa điểm liên quan": "Biên giới Việt Nam - Campuchia",
+        "id": "Xung đột Việt Nam Khmer Đỏ 1975-1978",
         "Nhân vật liên quan (Chỉ huy)": [
             "Lê Trọng Tấn",
             "Pol Pot"
@@ -8135,6 +8443,7 @@
             "[1]"
         ],
         "Địa điểm liên quan": "Chủ yếu là tại Phnôm Pênh, Campuchia. Ngoài ra tại các tỉnh như: Samrong, Sisophon; Pailin, O'Smach.",
+        "id": "Xung đột năm 1997 tại Campuchia",
         "Nhân vật liên quan (Chỉ huy)": [
             "Hun Sen",
             "Ke Kim Yan",
@@ -8199,6 +8508,7 @@
             "Người H'Mông"
         ],
         "Địa điểm liên quan": "người Hmong: Bắc và Trung Lào (1975-2007) Những người bảo hoàng, người cánh hữu: Nam Lào (những năm 1980-đầu 1990)",
+        "id": "Nổi dậy ở Lào",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": "1975 - 2007 [1] (về cơ bản đã bị dập tắt) 2007 - c. 2020 (hoạt động lẻ tẻ không như giai đoạn 1975 - 2007) c. 2020 - c. 2021 (Xung đột kết thúc)"
@@ -8228,6 +8538,7 @@
             "Cộng hòa Xã hội chủ nghĩa Việt Nam"
         ],
         "Địa điểm liên quan": "Biên giới Việt Nam - Trung Quốc và quần đảo Trường Sa",
+        "id": "Xung đột Việt Nam - Trung Quốc",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Dương Đắc Chí",
@@ -8261,6 +8572,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Đồi A1, Điện Biên Phủ",
+        "id": "Trận đồi A1",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Jules Gaucher",
@@ -8295,6 +8607,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Đồi Bản Kéo, Điện Biên Phủ",
+        "id": "Trận Bản Kéo",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Thiếu tá",
@@ -8318,6 +8631,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Cao Bằng, Bắc Kạn, Lạng Sơn",
+        "id": "Chiến dịch Cao Bắc Lạng",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Đào Văn Trường",
@@ -8344,6 +8658,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Điện Biên Phủ",
+        "id": "Cuộc hành quân Castor",
         "Nhân vật liên quan (Chỉ huy)": [
             "Henri Navarre",
             "Jean Gilles"
@@ -8369,6 +8684,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Đồi C1, Điện Biên Phủ",
+        "id": "Trận đồi C1",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Jules Gaucher",
@@ -8398,6 +8714,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Đông Bắc Việt Nam",
+        "id": "Chiến dịch Đông Bắc I",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Quảng Ba"
@@ -8419,6 +8736,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Đông Bắc Việt Nam",
+        "id": "Chiến dịch Đông Bắc II",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Quảng Ba"
@@ -8446,6 +8764,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "đèo Mang Yang, Đak Pơ, Gia Lai",
+        "id": "Trận Đak Pơ",
         "Nhân vật liên quan (Chỉ huy)": [
             "Barrou",
             "Nguyễn Minh Châu"
@@ -8467,6 +8786,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Tiên Yên",
+        "id": "Trận phục kích đoàn xe quân sự tại Điền Xá",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "",
@@ -8489,6 +8809,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "đồi Độc Lập, Điện Biên Phủ",
+        "id": "Trận đồi Độc Lập",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Christian de Castries",
@@ -8528,6 +8849,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Điện Biên Phủ",
+        "id": "Chiến dịch Điện Biên Phủ",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Christian de Castries",
@@ -8560,6 +8882,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Hà Nam, Nam Định, Ninh Bình (Việt Nam)",
+        "id": "Chiến dịch Hà Nam Ninh (Chiến dịch Quang Trung)",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "De Lattre",
@@ -8597,6 +8920,7 @@
             "Vệ quốc đoàn"
         ],
         "Địa điểm liên quan": "Hải Phòng, Việt Nam",
+        "id": "Trận Hải Phòng",
         "Nhân vật liên quan (Chỉ huy)": [
             "Chu Phúc Thành",
             "Philippe Leclerc",
@@ -8629,6 +8953,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Him Lam, Mường Thanh, Điện Biên Phủ",
+        "id": "Trận Him Lam",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Paul Pégot",
@@ -8662,6 +8987,7 @@
             "Quân đội Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Hồng Cúm, Điện Biên Phủ",
+        "id": "Trận Hồng Cúm",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "André Lalande",
@@ -8694,6 +9020,7 @@
             "Việt Cách"
         ],
         "Địa điểm liên quan": "Bắc Việt Nam",
+        "id": "Hoa quân nhập Việt",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hồ Chí Minh",
@@ -8729,6 +9056,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Thung lũng Nghĩa Lộ",
+        "id": "Chiến dịch Lý Thường Kiệt",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Raoul Salan",
@@ -8759,6 +9087,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Nghĩa Lộ, Việt Nam",
+        "id": "Chiến dịch Lorraine",
         "Nhân vật liên quan (Chỉ huy)": [
             "Raoul Salan",
             "Louis Dodelier",
@@ -8786,6 +9115,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Thanh Hóa và Ninh Bình (Việt Nam)",
+        "id": "Chiến dịch phản kích tây nam Ninh Bình",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Henri Navarre",
@@ -8811,6 +9141,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Yên Bái",
+        "id": "Chiến dịch Nghĩa Lộ",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": "18 tháng 4 năm 1948 - 1 tháng 5 năm 1948"
@@ -8835,6 +9166,7 @@
             "Quốc quân Trung Hoa Dân Quốc"
         ],
         "Địa điểm liên quan": "Các huyện Ung Châu, Long Châu và Khâm Châu, Quảng Tây, Trung Quốc",
+        "id": "Chiến dịch Thập Vạn Đại Sơn",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Trần Minh Giang",
@@ -8859,6 +9191,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Làng Vật Lại, xã Phú Mỹ (cũ), huyện Quốc Oai, tỉnh Hà Đông (nay thuộc Hà Nội), Việt Nam",
+        "id": "Trận Vật Lại",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Pháp phá hủy làng Vật Lại, dân chúng và quân đội du kích Việt Nam rút lui an toàn.",
         "Thời gian": "Tháng 11, 1948 - 29 tháng 2 năm 1949"
@@ -8878,6 +9211,7 @@
             "Quân đội nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Thị xã Vĩnh Yên, Tỉnh Vĩnh Yên, Liên bang Đông Dương",
+        "id": "Trận Vĩnh Yên",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Jean de Lattre de Tassigny",
@@ -8913,6 +9247,7 @@
             "Quân đội Quốc gia Việt Nam"
         ],
         "Địa điểm liên quan": "Thị xã Vinh, tỉnh Nghệ An, Việt Nam Dân chủ Cộng hòa",
+        "id": "Trận Vinh",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Quân Pháp đầu hàng",
         "Thời gian": "19 tháng 12, 1946 - 20 tháng 12 năm 1946"
@@ -8965,6 +9300,7 @@
             "Đế quốc Việt Nam"
         ],
         "Địa điểm liên quan": "Bán đảo Đông Dương",
+        "id": "Phong trào giải phóng dân tộc Việt Nam",
         "Nhân vật liên quan (Chỉ huy)": [
             "Hàm Nghi",
             "Tôn Thất Thuyết",
@@ -9059,6 +9395,7 @@
             "Việt Minh"
         ],
         "Địa điểm liên quan": "Việt Nam",
+        "id": "Cách mạng tháng Tám",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Tsuchihashi Yuitsu",
@@ -9092,6 +9429,7 @@
         "Sự kiện": "Tiếng bom Sa Diện",
         "Triều đại liên quan (Tham chiến)": [],
         "Địa điểm liên quan": "Khách sạn Victoria, khu vực tô giới Sa Diện thuộc Anh, Quảng Châu, Quảng Đông, Trung Hoa Dân Quốc",
+        "id": "Tiếng bom Sa Diện",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": ""
@@ -9111,6 +9449,7 @@
         "Sự kiện": "Thảm sát Ba Chúc",
         "Triều đại liên quan (Tham chiến)": [],
         "Địa điểm liên quan": "Thị trấn Ba Chúc, huyện Tri Tôn, tỉnh An Giang, Việt Nam",
+        "id": "Thảm sát Ba Chúc",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": ""
@@ -9134,6 +9473,7 @@
             "Hải quân Nhân dân Việt Nam"
         ],
         "Địa điểm liên quan": "Đá Gạc Ma, đá Cô Lin, đá Len Đao thuộc quần đảo Trường Sa",
+        "id": "Xung đột giành quyền kiểm soát tại Quần đảo Trường Sa 1988",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "",
@@ -9172,6 +9512,7 @@
             "Mặt trận Dân tộc Giải phóng Miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Củ Chi - Miền Nam Việt Nam",
+        "id": "Chiến dịch Cedar Falls",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Quân đội Mỹ thắng về chiến thuật Mặt trận Dân tộc Giải phóng thắng về chiến lược",
         "Thời gian": "08\/01 - 26\/01\/1967"
@@ -9196,6 +9537,7 @@
             "Quân lực Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "11°51-3-B 106°59-48-Đ﻿ \/ ﻿11,85083°B 106,99667°Đ﻿ \/ 11.85083; 106.99667 Phước Long, Nam Việt Nam",
+        "id": "Chiến dịch Đường 14 - Phước Long",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Hoàng Cầm",
@@ -9227,6 +9569,7 @@
             "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
         ],
         "Địa điểm liên quan": "Sài Gòn",
+        "id": "Chiến dịch Frequent Wind",
         "Nhân vật liên quan (Chỉ huy)": [
             "Văn Tiến Dũng"
         ],
@@ -9234,7 +9577,7 @@
         "Thời gian": "29-30, tháng 4 năm 1975"
     },
     {
-        "Mô tả": "Chiến dịch Phan Rang - Xuân Lộc là chiến dịch quyết định giữa Quân Giải phóng miền Nam Việt Nam và Quân lực Việt Nam Cộng hòa trước cửa ngõ Sài Gòn trong Cuộc tổng tấn công và nổi dậy mùa xuân 1975. Trong chiến dịch này, hai bên lần lượt đưa những lực lượng mạnh nhất của mình vào trận. Vì đây là địa bàn trọng điểm, là hai cánh cửa cuối cùng của toàn bộ tuyến phòng thủ còn lại trong kế hoạch nỗ lực tối đa để có thể bảo vệ được nửa lãnh thổ phía Nam còn lại và đi đến một cuộc đàm phán với Hà Nội ở các điều kiện tốt hơn cho mình nên Quân lực Việt Nam Cộng hòa được lệnh phải tử thủ ở Xuân Lộc. Trong khi đó thì Hà Nội kiên quyết không thương lượng. Quân Giải phóng miền Nam Việt Nam quyết tâm thực hiện đến cùng các mục tiêu đã được đề ra trong nghị quyết tháng 3 năm 1975 của họ, dù có phải hy sinh nhiều trong một cuộc tổng tấn công còn hơn là mất thì giờ để tìm kiếm thắng lợi qua việc lập một chính phủ liên hiệp.[4]",
+        "Mô tả": "Chiến dịch Phan Rang - Xuân Lộc là chiến dịch giữa Quân Giải phóng miền Nam Việt Nam và Quân lực Việt Nam Cộng hòa trước cửa ngõ Sài Gòn trong Cuộc tổng tấn công và nổi dậy mùa xuân 1975. Trong chiến dịch này, hai bên lần lượt đưa những lực lượng mạnh nhất của mình vào trận. Vì đây là địa bàn trọng điểm của toàn bộ tuyến phòng thủ còn lại trong kế hoạch nỗ lực tối đa để giữ được nửa lãnh thổ phía Nam còn lại và đi đến một cuộc đàm phán với Hà Nội ở các điều kiện tốt hơn nên Quân lực Việt Nam Cộng hòa được lệnh phải tử thủ ở Xuân Lộc. Trong khi đó thì Hà Nội không có ý định thương lượng. Quân Giải phóng miền Nam Việt Nam quyết tâm thực hiện các mục tiêu đã được đề ra trong nghị quyết tháng 3 năm 1975 của họ, vì dù phải hy sinh nhiều trong một cuộc tổng tấn công còn hơn là mất thời gian để tìm kiếm thắng lợi không chắc chắn qua việc lập một chính phủ liên hiệp.[4]",
         "Thể loại liên quan": [
             "Tổng tiến công và nổi dậy mùa xuân 1975",
             "Trận đánh và chiến dịch trong Chiến tranh Việt Nam",
@@ -9249,6 +9592,8 @@
         "Sự kiện": "Chiến dịch Phan Rang - Xuân Lộc",
         "Triều đại liên quan (Tham chiến)": [
             "",
+            "Quân đội Nhân dân Việt Nam",
+            "",
             "Quân Giải phóng miền Nam",
             "",
             "Bộ chỉ huy Viện trợ Quân sự Mỹ tại Việt Nam",
@@ -9256,6 +9601,7 @@
             "Quân lực Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Xuân Lộc, Phan Rang, Nam Việt Nam",
+        "id": "Chiến dịch Phan Rang - Xuân Lộc",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Trọng Tấn",
@@ -9289,7 +9635,8 @@
         ],
         "Sự kiện": "Thảm sát Đắk Sơn",
         "Triều đại liên quan (Tham chiến)": [],
-        "Địa điểm liên quan": "Đắk Sơn, tỉnh Phước Long, Việt Nam Dân chủ Cộng hòa",
+        "Địa điểm liên quan": "Đắk Sơn, tỉnh Đắk Lắk, Việt Nam Cộng hòa",
+        "id": "Thảm sát Đắk Sơn",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": ""
@@ -9305,34 +9652,24 @@
         "Sự kiện": "Nam Kỳ khởi nghĩa",
         "Triều đại liên quan (Tham chiến)": [
             "Đảng Cộng sản Đông Dương",
-            "Đế quốc Nhật Bản",
             "Pháp Vichy",
-            "Liên bang Đông Dương"
+            "Liên bang Đông Dương",
+            "Đế quốc Nhật Bản"
         ],
         "Địa điểm liên quan": "Nam Kỳ",
+        "id": "Nam Kỳ khởi nghĩa",
         "Nhân vật liên quan (Chỉ huy)": [
-            "",
             "Võ Văn Tần",
-            "",
             "Phan Đăng Lưu",
-            "",
             "Tạ Uyên",
-            "",
             "Nguyễn Văn Cừ",
-            "",
             "Hà Huy Tập",
-            "",
             "Nguyễn Thị Minh Khai",
-            "",
-            "Nguyễn Thị Bảy",
-            "",
             "Mười Đen",
             "",
             "Jean Decoux",
             "",
-            "Yuichi Tsuchihashi",
-            "",
-            "Takeshi Tsukamoto"
+            ""
         ],
         "Kết quả ": "Cuộc khởi nghĩa tạo tiếng vang lớn, gây nhiều tổn hại cho Pháp-Nhật, nhưng về sau bị đàn áp và đã thất bại, nhiều đảng viên, cán bộ cao cấp của Đảng Cộng sản Đông Dương bị xử tử. Một bộ phận nghĩa quân rút vào rừng tiến hành chiến tranh du kích.",
         "Thời gian": "1940"
@@ -9361,6 +9698,7 @@
             "Hoa Kỳ"
         ],
         "Địa điểm liên quan": "Sài Gòn, Việt Nam Cộng hòa (nay là Thành phố Hồ Chí Minh, Việt Nam) 10°49-23-B 106°37-47-Đ﻿ \/ ﻿10,8231°B 106,6297°Đ﻿ \/ 10.8231; 106.6297﻿ (Saigon, South Vietnam (present-day Ho Chi Minh City, Vietnam))",
+        "id": "Sự kiện 30 tháng 4 năm 1975",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "Lê Duẩn",
@@ -9438,6 +9776,7 @@
             "Việt Nam Dân chủ Cộng hòa"
         ],
         "Địa điểm liên quan": "miền Nam Việt Nam",
+        "id": "Tết Mậu Thân",
         "Nhân vật liên quan (Chỉ huy)": [
             "",
             "William Westmoreland",
@@ -9473,6 +9812,7 @@
             "Quân lực Việt Nam Cộng hòa"
         ],
         "Địa điểm liên quan": "Chơn Thành, Bình Long, Nam Việt Nam",
+        "id": "Trận Chơn Thành",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "Quân Giải phóng miền Nam Việt Nam chiến thắng chiến lược, chiếm được Chơn Thành vào 2 tháng 4 năm 1975",
         "Thời gian": ""
@@ -9490,6 +9830,7 @@
         "Sự kiện": "Vụ đánh bom cư xá Brinks",
         "Triều đại liên quan (Tham chiến)": [],
         "Địa điểm liên quan": "Sài Gòn, Việt Nam Cộng hòa",
+        "id": "Vụ đánh bom cư xá Brinks",
         "Nhân vật liên quan (Chỉ huy)": [],
         "Kết quả ": "",
         "Thời gian": ""
