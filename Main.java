@@ -152,6 +152,7 @@ public class Main {
         // System.out
         //         .println(theloai("https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n%E2%80%93Vi%E1%BB%87t"));
         //System.out.println(contentInfoBox("Thời gian"));
-        list("https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Paris_1973");
+        //list("https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Paris_1973");
+        System.out.println("Tiếng việt");
     }
 }
