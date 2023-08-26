@@ -52,19 +52,18 @@ public class ExtractData {
             String destination = linkEvent.contentInfoBox("Địa điểm");
             List<String> tdLienQuan = linkEvent.contentInfoBoxList("Tham chiến", 0);
             List<String> nvLienQuan = linkEvent.contentInfoBoxList("Chỉ huy", 0);
-            String lucluong = linkEvent.contentInfobox("Lực lượng", 0, 0);
-            String thuongvong = linkEvent.contentInfobox("Thương vong", 0, 0);
+            //String lucluong = linkEvent.contentInfobox("Lực lượng", 0, 0);
+            //String thuongvong = linkEvent.contentInfobox("Thương vong", 0, 0);
             List<String> theloai = linkEvent.contentInfoboxList();
             String mota = linkEvent.description();
-
-            object.put("Kết quả ", result);
-            object.put("Địa điểm liên quan", destination);
-            object.put("Triều đại liên quan (Tham chiến)", tdLienQuan);
-            object.put("Nhân vật liên quan (Chỉ huy)", nvLienQuan);
+            object.put("Result", result);
+            object.put("Location", destination);
+            object.put("Dynasty related", tdLienQuan);
+            object.put("Character related", nvLienQuan);
             //object.put("Lực lượng", lucluong);
             //object.put("Thương vong", thuongvong);
-            object.put("Thể loại liên quan", theloai);
-            object.put("Mô tả" , mota);
+            object.put("Related to", theloai);
+            object.put("Description" , mota);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -95,10 +94,10 @@ public class ExtractData {
                     Map<String, Object> entry = new HashMap<>();    
                     String thoigiancuthe = i.select("b").text() + " " + thoigian;
                     i.child(0).remove();
-                    entry.put("Sự kiện", i.text());
+                    //entry.put("Sự kiện", i.text());
                     entry.put("id" , i.text());
-                    entry.put("Thời gian", thoigiancuthe);
-                    entry.put("Thời kỳ (Triều đại)", thoidai);
+                    entry.put("Time", thoigiancuthe);
+                    entry.put("Dynasty related", thoidai);
                     Elements linkChild = i.select("a");
                     for (Element j : linkChild) {
                         String linkChildUrl = j.attr("abs:href");
@@ -106,6 +105,7 @@ public class ExtractData {
                         if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                             listUrl.add(linkChildUrl);
                             infobox(linkEvent, entry);
+                            //entry.put("Link" , linkChildUrl.replace("\"", ""));
                         }
                     }
                     size++;
@@ -118,10 +118,10 @@ public class ExtractData {
                 Map<String, Object> entry = new HashMap<>();
                 link.child(0).remove();
                 String sukien = link.text();
-                entry.put("Sự kiện", sukien);
+                //entry.put("Sự kiện", sukien);
                 entry.put("id" , sukien);
-                entry.put("Thời gian", thoigian);
-                entry.put("Thời kỳ (Triều đại)", thoidai);
+                entry.put("Time", thoigian);
+                entry.put("Dynasty related", thoidai);
                 Elements linkChild = link.select("a");
                 for (Element j : linkChild) {
                     String linkChildUrl = j.attr("abs:href");
@@ -129,8 +129,9 @@ public class ExtractData {
                     if (LinkEvent.isEvent() && !listUrl.contains(linkChildUrl)) {
                         listUrl.add(linkChildUrl);
                         infobox(linkEvent, entry);
+                        //entry.put("Link" , linkChildUrl.replace("\"", ""));
                     } else {
-                        entry.put("Thể loại liên quan", linkEvent.contentInfoboxList());
+                        entry.put("Related to", linkEvent.contentInfoboxList());
                     }
                 }
                 size++;

@@ -1,0 +1,52 @@
+.context-menu {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color: #000000;
+}
+
+.table-view .column-header .label{
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+}
+
+.table-row-cell:hover {
+  -fx-cursor: hand;
+}
+
+.hoverMenuItem:hover {
+	-fx-background-color: #ccc;
+	-fx-cursor: hand
+}
+
+.button {
+  -fx-background-color: white;
+  -fx-border-width: 2;
+  -fx-border-color: #333;
+  -fx-border-radius: 20;
+  -fx-padding: 10 20;
+  -fx-transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  -fx-border-radius: 0;
+  -fx-background-color: #34d399;
+  -fx-text-fill: white;
+  -fx-cursor: hand;
+}
+
+.button-clear:hover {
+  -fx-border-radius: 0;
+  -fx-background-color: #f43f5e;
+  -fx-text-fill: white;
+  -fx-cursor: hand;
+}
+
+.button-crawl:hover {
+  -fx-border-radius: 0;
+  -fx-background-color: #34d399;
+  -fx-text-fill: white;
+  -fx-cursor: hand;
+}

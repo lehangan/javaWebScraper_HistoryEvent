@@ -2,12 +2,11 @@ package Database;
 
 import java.util.List;
 
-public interface IDatabase<E>{
-    /* Store an object into database */
-	public void store(List<E> listObject);
+public interface IDatabase <E> {
 
-    
-	/* Load a list of objects with given index range[startIndex, endIndex) 
+	/* Store an object into database */
+	public void store(List<E> listObject);
+	/* Load a list of objects with given index range[startIndex, endIndex)
 		- startIndex is inclusive
 		- endIndex is exclusive
 	 */
@@ -20,5 +19,5 @@ public interface IDatabase<E>{
 	public int size();
 
 	/* close the database: cleaning environment if neccessary */
-	public void close();    
-}
+	public void close();
+}	// close IDatabase

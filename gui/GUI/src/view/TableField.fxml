@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefWidth="200.0" spacing="20.0">
+         <children>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/378-3780189_member-berries-png.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label prefHeight="27.0" prefWidth="150.0" text="Nhân vật">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" Lạc Long Quân" wrappingWidth="380.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <Separator maxWidth="637.0" prefHeight="0.0" prefWidth="637.0">
+         <VBox.margin>
+            <Insets bottom="10.0" left="36.0" top="5.0" />
+         </VBox.margin>
+      </Separator>
+   </children>
+</VBox>

@@ -16,7 +16,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import Database.Database;
 
 public class ExtractAndList extends ExtractData {
     public static int numberUrlUsed = 0;
@@ -74,9 +73,9 @@ public class ExtractAndList extends ExtractData {
             }
         }
         // entry.put("Link" , url);
-        entry.put("Sự kiện", sukien);
+        //entry.put("Sự kiện", sukien);
         entry.put("id",sukien);
-        entry.put("Thời gian", thoigian);
+        entry.put("Time", thoigian);
         infobox(linkEvent, entry);
         JSONObject jsonObject = new JSONObject(entry);
         jsonArray.add(jsonObject);
@@ -90,6 +89,16 @@ public class ExtractAndList extends ExtractData {
         }
     }
 
+    public void writeJsonArrayFile() throws IOException{
+        try (
+            FileWriter fileWriter = new FileWriter("Crawl/extractData.json")) {
+            String modifiedJsonString = ExtractData.unescapeUnicode(jsonArray.toString());
+            fileWriter.write(modifiedJsonString);
+            fileWriter.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     public static void main(String[] args) throws IOException {
         ExtractAndList searchMoreLink = new ExtractAndList();
         searchMoreLink.createListUrl(
@@ -120,8 +129,7 @@ public class ExtractAndList extends ExtractData {
         searchMoreLink.wrtieDataAll();
         for( int i = 0 ; i<=6 ; i++)
             jsonArray.remove(i);
-        Database database = new Database(jsonArray);
-        //searchMoreLink.writeDataToFile();
+        searchMoreLink.writeJsonArrayFile();
 
         System.out.println(size);
     }

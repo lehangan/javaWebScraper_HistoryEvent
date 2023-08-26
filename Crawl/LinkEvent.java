@@ -119,4 +119,17 @@ public class LinkEvent {
         return returnString;
     }
 
+    public String image() throws IOException{
+        String imageUrl ="";
+        try {
+            // instance = new HashMap<String, String>(10000);
+            Document docChild = Jsoup.connect(url).get();
+            Element content = docChild.getElementsByClass("infobox vevent").first();
+            Element image = content.selectFirst("img");
+            imageUrl = image.attr("abs:src");
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+        return imageUrl;
+    }
 }

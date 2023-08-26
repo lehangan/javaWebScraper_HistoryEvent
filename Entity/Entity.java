@@ -1,36 +1,25 @@
 package Entity;
-import java.util.Map;
 
-import org.json.simple.JSONArray;
+public abstract class Entity {
+	protected String id;
+	protected String description;
+	
+	public String getDescription() {
+		return description;
+	}
 
-import Exception.NoIdException;
-public class Entity {
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	public String getName() {
+		return id;
+	}
 
-	private Map<String, String> properties;		// map string with string
-	private String id;							// id of the character
+	public void setName(String name) {
+		this.id = name;
+	}
+	
 
-	// Constructor
-	public Entity(Map<String,String> map) throws NoIdException {
-		this.properties = map;
-		if (!map.containsKey("id")) 
-			throw new NoIdException();
-		this.id = map.get("id");
-	}	// close constructor
-
-
-	// Get a value of given attribute(key) in map
-	public String getProperty(String key) {
-		return this.properties.get(key);
-	}	// close getProperty
-
-
-	@Override
-	public String toString() {
-		String info = "";
-		for (Map.Entry<String, String> entry: this.properties.entrySet()) {
-			info += entry.getKey() + " : ";
-			info += entry.getValue() + "\n";
-		}	// close for
-		return info;
-	}	// close info
-}	// close Entity
+	public abstract String toString();
+}
